@@ -1,0 +1,14 @@
+# Corpus data
+data/corpora/raw/
+data/corpora/ready/
+
+# Generated vector databases
+data/databases/
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
