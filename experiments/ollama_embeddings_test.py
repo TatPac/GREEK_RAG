@@ -22,7 +22,7 @@ DATABASE_DIR.mkdir(parents=True, exist_ok=True)
 # Models
 # --------------------------------------------------
 
-EMBEDDING_MODEL = "qwen3-embedding:0.6b"
+EMBEDDING_MODEL = "qwen3-embedding:4b"
 LANGUAGE_MODEL = "qwen3:4b"
 
 
@@ -32,8 +32,8 @@ LANGUAGE_MODEL = "qwen3:4b"
 
 dataset = []
 
-CHUNK_SIZE = 2000
-CHUNK_OVERLAP = 400
+CHUNK_SIZE = 200
+CHUNK_OVERLAP = 100
 STEP = CHUNK_SIZE - CHUNK_OVERLAP
 
 for file_path in sorted(DATA_DIR.glob("*.txt")):
