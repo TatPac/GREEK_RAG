@@ -544,6 +544,18 @@ def main():
 
                 for chunk_overlap in CHUNK_OVERLAPS:
 
+
+                    # Skip excessive overlap
+                    overlap_ratio = chunk_overlap / chunk_size
+
+                    if overlap_ratio > 0.75:
+                        print(
+                            f"Skipping chunk size {chunk_size}, "
+                            f"overlap {chunk_overlap} "
+                            f"({overlap_ratio:.0%} overlap)"
+                        )
+                        continue
+
                     print()
                     print("=" * 70)
 
@@ -768,7 +780,8 @@ def main():
                 "top_n",
                 "question",
                 "top_similarity",
-                "answer"
+                "answer",
+                "other_similarities"
             ]
         )
 
@@ -783,6 +796,11 @@ def main():
             else:
                 top_similarity = None
 
+            similarities = [
+                r["similarity"]
+                for r in retrieved
+            ]
+
             writer.writerow(
                 [
                     result["experiment_number"],
@@ -793,7 +811,11 @@ def main():
                     result["top_n"],
                     result["question"],
                     top_similarity,
-                    result["answer"]
+                    result["answer"],
+                    *[
+                        f"similarity_{i}"
+                        for i in range(1, result["top_n"] + 1)
+                    ]
                 ]
             )
 

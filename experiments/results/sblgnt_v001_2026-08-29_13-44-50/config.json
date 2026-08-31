@@ -3,19 +3,23 @@
         "qwen3-embedding:4b",
         "yxchia/multilingual-e5-base:latest"
     ],
-
     "chunk_sizes": [
-        100, 200, 300, 500, 750, 1000
+        100,
+        200,
+        300,
+        500,
+        750,
+        1000
     ],
-
     "chunk_overlaps": [
-        0, 50, 100, 500
+        0,
+        50,
+        100,
+        500
     ],
-
     "top_n": [
         3
     ],
-
     "language_models": [
         "qwen3:4b"
     ]

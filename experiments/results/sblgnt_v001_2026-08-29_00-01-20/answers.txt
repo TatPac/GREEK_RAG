@@ -1,0 +1,3322 @@
+
+======================================================================
+EXPERIMENT 1
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+How does Jesus Christ feel towards the Pharisees?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.551349
+Source: 61-SBLGNT-Matthew.txt
+
+ οἱ ⸀μαθηταὶ ⸀λέγουσιν αὐτῷ· Οἶδας ὅτι οἱ Φαρισαῖοι ἀκούσαντες 
+τὸν λόγον ἐσκανδαλίσθησαν ; 13 ὁ δὲ 
+
+RETRIEVED #2
+Similarity: 0.550427
+Source: 64-SBLGNT-John.txt
+
+ον· Ὁ χριστὸς ὅταν ἔλθῃ ⸀μὴ πλείονα ⸀σημεῖα 
+ποιήσει ὧν οὗτος ἐποίησεν;
+32 Ἤκουσαν οἱ Φαρισαῖοι τοῦ 
+
+RETRIEVED #3
+Similarity: 0.536613
+Source: 61-SBLGNT-Matthew.txt
+
+πλήσσοντο ἐπὶ τῇ 
+διδαχῇ αὐτοῦ.
+34 Οἱ δὲ Φαρισαῖοι  ἀκούσαντες  ὅτι ἐφίμωσεν  τοὺς Σαδδουκαίους  
+συ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+I cannot determine how Jesus Christ feels toward the Pharisees based on the provided context. 
+
+The context contains fragments from the SBLGNT (Society of Biblical Literature Greek New Testament) versions of Matthew and John, but it does not explicitly state Jesus' feelings toward the Pharisees. The text shows that:
+- The disciples say that "the Pharisees, hearing the word, will be scandalized" (ἐσκανδαλίσθησαν)
+- The Pharisees are hearing that Jesus has reproached the Sadducees
+
+While this indicates that Jesus' teaching is challenging the Pharisees' understanding (causing them to be scandalized), the context does not contain any direct statements about Jesus' feelings toward the Pharisees. The text provides information about the Pharisees' reaction to Jesus' teaching but doesn't explicitly describe Jesus' emotional state or feelings toward them.
+
+Therefore, based solely on the retrieved context, I cannot answer how Jesus Christ feels toward the Pharisees.
+
+
+======================================================================
+EXPERIMENT 2
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Jesus teach about loving one's enemies?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.628899
+Source: 63-SBLGNT-Luke.txt
+
+ ἀγαπᾶτε  τοὺς ἐχθροὺς  ὑμῶν, 
+καλῶς ποιεῖτε τοῖς μισοῦσιν ὑμᾶς, 28 εὐλογεῖτε τοὺς καταρωμένους ⸀ὑμᾶ
+
+RETRIEVED #2
+Similarity: 0.602597
+Source: 64-SBLGNT-John.txt
+
+λὴν καινὴν δίδωμι ὑμῖν 
+ἵνα ἀγαπᾶτε ἀλλ ήλους, καθὼς ἠγάπησα ὑμᾶς ἵνα καὶ ὑμεῖς ἀγαπᾶτε ἀλλ ήλους. 
+
+
+RETRIEVED #3
+Similarity: 0.598321
+Source: 61-SBLGNT-Matthew.txt
+
+ς τὸν πλησίον σου καὶ μισήσεις  
+τὸν ἐχθρόν σου. 44 ἐγὼ δὲ λέγω ὑμῖν, ἀγαπᾶτε τοὺς ἐχθροὺς ⸀ὑμῶν καὶ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context from the SBLGNT (Simplified Basic Greek New Testament), Jesus teaches about loving one's enemies in these specific ways:
+
+In Luke 6:27-28 (as shown in the context), Jesus says: "Love your enemies, do good to those who hate you, bless those who curse you."
+
+In Matthew 5:44 (as indicated in the context), Jesus states: "I tell you, love your enemies."
+
+The context shows that this teaching is presented as a radical commandment that goes beyond normal expectations. Jesus instructs his followers to actively love those who hate them, do good to those who are hostile, and bless those who curse them - essentially calling for a transformed love that opposes typical social patterns of hatred and retaliation.
+
+This teaching appears in multiple New Testament passages, demonstrating that loving enemies is a core commandment Jesus gave to his followers.
+
+
+======================================================================
+EXPERIMENT 3
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Paul teach about faith?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.545097
+Source: 65-SBLGNT-Acts.txt
+
+ τῷ Παύλῳ εἶπεν· 
+Θέλεις εἰς Ἱεροσόλυμα ἀναβὰς ἐκεῖ περὶ τούτων ⸀κριθῆναι ἐπʼ ἐμοῦ; 10 εἶπεν 
+δὲ ὁ Π
+
+RETRIEVED #2
+Similarity: 0.545029
+Source: 67-SBLGNT-1Corinthians.txt
+
+μὴ Παῦλος ἐσταυρώθη 
+ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε; 14 ⸀εὐχαριστῶ ὅτι οὐδένα 
+ὑμῶν ἐβ
+
+RETRIEVED #3
+Similarity: 0.538805
+Source: 65-SBLGNT-Acts.txt
+
+ερί 
+τινος Ἰησοῦ τεθνηκότος, ὃν ἔφασκεν ὁ Παῦλος ζῆν. 20 ἀπορούμενος δὲ ἐγὼ τὴν 
+περὶ ⸀τούτων ζήτησι
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+I cannot provide an answer about what Paul teaches about faith based on the retrieved context. 
+
+The context provided consists of only three text fragments from the New Testament in Koine Greek (from Acts and 1 Corinthians), but these fragments do not contain specific teachings about faith from Paul. The fragments mention Paul by name but don't include any direct statements about Paul's teachings on faith. 
+
+The context shows:
+- A fragment from Acts where Paul is being asked about going to Jerusalem
+- A fragment from 1 Corinthians where someone questions whether Paul was crucified for them or if they were baptized in Paul's name
+- A fragment from Acts mentioning that "someone who died for Jesus, who Paul said would live"
+
+None of these fragments contain information about what Paul teaches about faith. The retrieved context does not provide sufficient information to answer your question about Paul's teachings on faith.
+
+
+======================================================================
+EXPERIMENT 4
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does John teach about eternal life?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.603271
+Source: 83-SBLGNT-1John.txt
+
+εὸς Treg NIV RP
+ 476
+5:13–21  ΙΩΑΝΝΟΥ  Α
+13 Ταῦτα ἔγραψα ⸀ὑμῖν ἵνα εἰδῆτε ὅτι ζωὴν ⸂ἔχετε αἰώνιον⸃ ,
+
+RETRIEVED #2
+Similarity: 0.583546
+Source: 61-SBLGNT-Matthew.txt
+
+οσελθὼν ⸂αὐτῷ εἶπεν⸃· ⸀Διδάσκαλε, τί ἀγαθὸν ποιήσω 
+ἵνα ⸀σχῶ ζωὴν αἰώνιον; 17 ὁ δὲ εἶπεν αὐτῷ· Τί με
+
+RETRIEVED #3
+Similarity: 0.553536
+Source: 62-SBLGNT-Mark.txt
+
+ν εἷς καὶ γονυπετήσας 
+αὐτὸν ἐπηρώτα  αὐτόν·  Διδάσκαλε  ἀγαθέ, τί ποιήσω ἵνα ζωὴν αἰώνιον  
+κληρονο
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, John teaches that believers "have eternal life" (ζωὴν αἰώνιον). 
+
+The specific passage from John's Gospel in the context states: "These I have written to you so that you may know that you have eternal life" (Ταῦτα ἔγραψα ⸀ὑμῖν ἵνα εἰδῆτε ὅτι ζωὴν ⸂ἔχετε αἰώνιον⸃).
+
+This indicates that according to John's Gospel, eternal life is something believers already possess, rather than something they gain through works or actions. The context shows John's teaching focuses on the reality that believers already have eternal life, which is the purpose of what he has written.
+
+
+======================================================================
+EXPERIMENT 5
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Jesus teach about forgiveness?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.537533
+Source: 61-SBLGNT-Matthew.txt
+
+ησοῦς εἶπεν ⸂πρὸς αὐτόν⸃· Ἄφες ἄρτι, οὕτως γὰρ πρέπον 
+ἐστὶν ἡμῖν πληρῶσαι πᾶσαν δικαιοσύνην. τότε ἀ
+
+RETRIEVED #2
+Similarity: 0.512110
+Source: 72-SBLGNT-Colossians.txt
+
+μεν τὴν ἀπολύτρωσιν, τὴν ἄφεσιν τῶν ἁμαρτιῶν· 15 ὅς ἐστιν εἰκὼν τοῦ 
+1:1 Χριστοῦ ἸησοῦΧριστοῦ  Ἰησοῦ
+
+RETRIEVED #3
+Similarity: 0.500455
+Source: 65-SBLGNT-Acts.txt
+
+ ἄφεσιν ⸀τῶν ἁμαρτιῶν ⸀ὑμῶν, καὶ λήμψεσθε τὴν δωρεὰν 
+τοῦ ἁγίου πνεύματος· 39 ὑμῖν γάρ ἐστιν ἡ ἐπαγγ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the provided context, Jesus says "Forgive me immediately, for this is what is necessary for us to fulfill all righteousness." 
+
+This appears in the Matthew passage (61-SBLGNT-Matthew.txt) where Jesus speaks to someone saying "Ἄφες ἄρτι, οὕτως γὰρ πρέπον" (Forgive me immediately, for this is what is necessary).
+
+The context shows Jesus teaching about the necessity of forgiveness in this specific context, though the passage appears to be truncated and the complete teaching on forgiveness is not fully provided in the retrieved text.
+
+
+======================================================================
+EXPERIMENT 6
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Jesus teach about prayer?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.553008
+Source: 63-SBLGNT-Luke.txt
+
+ς αὐτόν· Κύριε, δίδαξον ἡμᾶς 
+προσεύχεσθαι, καθὼς καὶ Ἰωάννης ἐδίδαξεν τοὺς μαθητὰς αὐτοῦ. 2 εἶπεν δ
+
+RETRIEVED #2
+Similarity: 0.516825
+Source: 63-SBLGNT-Luke.txt
+
+ὴ ⸀μεριμνήσητε πῶς ⸂ἢ τί⸃ ἀπολογήσησθε ἢ τί εἴπητε· 12 τὸ γὰρ 
+ἅγιον πνεῦμα διδάξει ὑμᾶς ἐν αὐτῇ τῇ 
+
+RETRIEVED #3
+Similarity: 0.514581
+Source: 62-SBLGNT-Mark.txt
+
+καλῶς ⸂ἀπεκρίθη αὐτοῖς⸃, ἐπηρώτησεν αὐτόν· Ποία ἐστὶν ⸂ἐντολὴ 
+πρώτη πάντων⸃; 29 ⸂ἀπεκρίθη ὁ Ἰησοῦς⸃
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus taught his disciples how to pray. The context shows that someone is asking Jesus to teach them to pray, as indicated by the fragment: "ς αὐτόν</tool_call> Κύριε, δίδαξον ἡμᾶς προσεύχεσθαι, καθὼς καὶ Ἰωάννης ἐδίδαξεν τοὺς μαθητὰς αὐτοῦ" (Master, teach us to pray, as John taught his disciples).
+
+The context also mentions that "the holy spirit will teach you in this" (τὸ γὰρ ἅγιον πνεῦμα διδάξει ὑμᾶς ἐν αὐτῇ τῇ), indicating that the Holy Spirit plays a role in teaching how to pray.
+
+The context provides a partial teaching about prayer but does not include the complete content of what Jesus taught about prayer. The retrieved fragments show Jesus teaching his disciples how to pray, with reference to the Holy Spirit's role in this teaching.
+
+
+======================================================================
+EXPERIMENT 7
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Jesus teach about humility?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.516323
+Source: 71-SBLGNT-Philippians.txt
+
+Ἰησοῦν Χριστόν, 21 ὃς 
+μετασχηματίσει τὸ σῶμα τῆς ταπεινώσεως ⸀ἡμῶν σύμμορφον τῷ σώματι τῆς 
+δόξης α
+
+RETRIEVED #2
+Similarity: 0.516027
+Source: 61-SBLGNT-Matthew.txt
+
+τὰ παιδία, οὐ μὴ εἰσέλθητε εἰς τὴν βασιλείαν τῶν οὐρανῶν. 
+4 ὅστις οὖν ταπεινώσει ἑαυτὸν ὡς τὸ παιδί
+
+RETRIEVED #3
+Similarity: 0.491754
+Source: 61-SBLGNT-Matthew.txt
+
+οἱ μαθηταὶ τῷ Ἰησοῦ λέγοντες· Τίς ἄρα 
+μείζων ἐστὶν ἐν τῇ βασιλείᾳ τῶν οὐρανῶν; 2 καὶ ⸀προσκαλεσάμεν
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus teaches about humility in the following ways:
+
+1. In Matthew 4:3 (as indicated in the context), Jesus states that "whoever humbles himself as a child will enter the kingdom of heaven." This shows that humility is essential for entering God's kingdom.
+
+2. The context also shows that Jesus himself modeled humility, as seen in the Philippians passage where it mentions "Christ who humbled himself" (ταπεινώσει).
+
+3. The context references the teaching about humility in the context of greatness, as seen in the Matthew passage where disciples ask Jesus about who is greatest in the kingdom of heaven.
+
+The key teaching from Jesus in this context is that true greatness in God's kingdom comes through humility - specifically, humbling oneself as a child (in the sense of being humble, not prideful) is the path to entering the kingdom of heaven. This is directly stated in the fragment from Matthew 4:3.
+
+
+======================================================================
+EXPERIMENT 8
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Jesus say about the kingdom of God?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.575865
+Source: 63-SBLGNT-Luke.txt
+
+ἶναι Ἰερουσαλὴμ αὐτὸν⸃ καὶ δοκεῖν αὐτοὺς ὅτι παραχρῆμα μέλλ ει ἡ βασιλεία 
+τοῦ θεοῦ ἀναφαίνεσθαι· 12
+
+RETRIEVED #2
+Similarity: 0.568098
+Source: 63-SBLGNT-Luke.txt
+
+ εἶπεν· Οὐκ ἔρχεται ἡ βασιλεία τοῦ θεοῦ μετὰ 
+παρατηρήσεως, 21 οὐδὲ ἐροῦσιν· Ἰδοὺ ὧδε ἤ· ⸀Ἐκεῖ· ἰδοὺ
+
+RETRIEVED #3
+Similarity: 0.551486
+Source: 65-SBLGNT-Acts.txt
+
+ διʼ 
+ἡμερῶν τεσσεράκοντα ὀπτανόμενος αὐτοῖς καὶ λέγων τὰ περὶ τῆς βασιλείας 
+τοῦ θεοῦ· 4 καὶ συναλι
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus says that "The kingdom of God does not come with observation, neither do they ask: 'Here it is.'" This statement appears in Luke 21:21 (as shown in the 63-SBLGNT-Luke.txt fragment).
+
+The Greek text specifically states: "εἶπεν Οὐκ ἔρχεται ἡ βασιλεία τοῦ θεοῦ μετὰ παρατηρήσεως, 21 οὐδὲ ἐροῦσιν Ἰδοὺ ὧδε ἤ"
+
+This indicates that Jesus is teaching that the kingdom of God does not arrive in the way people expect (it's not something that can be observed or seen in the conventional sense), and that people do not ask "Here it is" when it comes. This statement is part of Jesus' teaching about the nature of the kingdom of God in the context of Luke 21.
+
+
+======================================================================
+EXPERIMENT 9
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Jesus teach about wealth and possessions?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.625451
+Source: 63-SBLGNT-Luke.txt
+
+, ἦν γὰρ πλούσιος σφόδρα. 24 Ἰδὼν 
+δὲ αὐτὸν ὁ ⸀Ἰησοῦς εἶπεν· Πῶς δυσκόλως οἱ τὰ χρήματα ἔχοντες ⸂εἰς
+
+RETRIEVED #2
+Similarity: 0.615239
+Source: 63-SBLGNT-Luke.txt
+
+22 ἀκούσας 
+⸀δὲ ὁ Ἰησοῦς εἶπεν αὐτῷ· Ἔτι ἕν σοι λείπει· πάντα ὅσα ἔχεις πώλησον καὶ 
+διάδος πτωχοῖς,
+
+RETRIEVED #3
+Similarity: 0.572516
+Source: 64-SBLGNT-John.txt
+
+έγει αὐτῷ ⸀ὁ Ἰησοῦς· Ἀγόρασον ὧν χρείαν ἔχομεν εἰς τὴν ἑορτήν, ἢ τοῖς 
+πτωχοῖς ἵνα τι δῷ. 30 λαβὼν ο
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus teaches that one should sell all their possessions and give the money to the poor. This is specifically mentioned in the Luke text where it states: "Ἐτι ἕν σοι λείπει πάντα ὅσα ἔχεις πώλησον καὶ διάδος πτωχοῖς" (You must sell all your possessions and give to the poor).
+
+This teaching appears to be directed at someone who is wealthy, as the context begins with "ἦν γὰρ πλούσιος σφόδρα" (He was very rich). The passage shows Jesus instructing this person to give up all their possessions and distribute the wealth to the poor.
+
+The context also mentions a related teaching where Jesus says "Ἀγόρασον ὧν χρείαν ἔχομεν εἰς τὴν ἑορτήν, ἢ τοῖς πτωχοῖς ἵνα τι δῷ" (Buy what we need for the festival, or give to the poor so that we may give something), but the more direct teaching about wealth and possessions is the instruction to sell all possessions and give to the poor.
+
+
+======================================================================
+EXPERIMENT 10
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Jesus teach about repentance?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.553620
+Source: 65-SBLGNT-Acts.txt
+
+έτρος δὲ 
+⸂πρὸς αὐτούς· Μετανοήσατε⸃, καὶ βαπτισθήτω ἕκαστος ὑμῶν ⸀ἐπὶ τῷ ὀνόματι 
+Ἰησοῦ Χριστοῦ εἰς
+
+RETRIEVED #2
+Similarity: 0.543569
+Source: 65-SBLGNT-Acts.txt
+
+ ⸀αὐτοῦ ἐπλήρωσεν οὕτως. 19 μετανοήσατε 
+οὖν καὶ ἐπιστρέψατε ⸀πρὸς τὸ ἐξαλειφθῆναι ὑμῶν τὰς ἁμαρτίας
+
+RETRIEVED #3
+Similarity: 0.538216
+Source: 61-SBLGNT-Matthew.txt
+
+τειλεν αὐτοῖς. 17 Ἀπὸ τότε ἤρξατο ὁ Ἰησοῦς κηρύσσειν καὶ λέγειν· 
+Μετανοεῖτε, ἤγγ ικεν γὰρ ἡ βασιλεί
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus teaches that people should "Repent" (Μετανοεῖτε) because "the kingdom of heaven is at hand" (the phrase "for the kingdom of heaven is at hand" is implied in the context from Matthew 17).
+
+The context shows Jesus saying this in the book of Matthew (verse 17): "Repent, for the kingdom of heaven is at hand." This teaching appears in the SBLGNT Greek text as: "Μετανοεῖτε, ἤγγ ικεν γὰρ ἡ βασιλεί" (which translates to "Repent, for the kingdom of heaven is at hand").
+
+This teaching about repentance is presented as a necessary response to the nearness of God's kingdom.
+
+
+======================================================================
+EXPERIMENT 11
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Jesus say about loving God?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.598887
+Source: 61-SBLGNT-Matthew.txt
+
+τολὴ μεγάλη ἐν τῷ νόμῳ; 37 ὁ ⸀δὲ ἔφη αὐτῷ· 
+Ἀγαπήσεις κύριον τὸν θεόν σου ἐν ὅλῃ ⸀τῇ καρδίᾳ σου καὶ 
+
+RETRIEVED #2
+Similarity: 0.588686
+Source: 83-SBLGNT-1John.txt
+
+ἐστὶν ἡ ἐντολὴ αὐτοῦ, 
+ἵνα ⸀πιστεύσωμεν τῷ ὀνόματι τοῦ υἱοῦ αὐτοῦ Ἰησοῦ Χριστοῦ καὶ ἀγαπῶμεν 
+ἀλλ ήλ
+
+RETRIEVED #3
+Similarity: 0.578970
+Source: 63-SBLGNT-Luke.txt
+
+ις; 27 ὁ δὲ ἀποκριθεὶς εἶπεν· Ἀγαπήσεις κύριον 
+τὸν θεόν σου ἐξ ὅλης ⸀τῆς καρδίας σου καὶ ⸂ἐν ὅλῃ τῇ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus says: "You shall love the Lord your God with all your heart..."
+
+This statement appears in both Matthew 22:37 (as shown in [61-SBLGNT-Matthew.txt]) and Luke 10:27 (as shown in [63-SBLGNT-Luke.txt]). The Greek text in the context indicates: "Ἀγαπήσεις κύριον τὸν θεόν σου ἐν ὅλῃ ⸀τῇ καρδίᾳ σου καὶ" (Matthew) and "Ἀγαπήσεις κύριον τὸν θεόν σου ἐξ ὅλης ⸀τῆς καρδίας σου καὶ" (Luke).
+
+The context shows that Jesus instructs people to love God with all their heart as part of the commandment.
+
+
+======================================================================
+EXPERIMENT 12
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Jesus teach about serving others?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.563112
+Source: 64-SBLGNT-John.txt
+
+λὴν καινὴν δίδωμι ὑμῖν 
+ἵνα ἀγαπᾶτε ἀλλ ήλους, καθὼς ἠγάπησα ὑμᾶς ἵνα καὶ ὑμεῖς ἀγαπᾶτε ἀλλ ήλους. 
+
+
+RETRIEVED #2
+Similarity: 0.523330
+Source: 61-SBLGNT-Matthew.txt
+
+ ἀγαπήσητε τοὺς 
+ἀγαπῶντας ὑμᾶς, τίνα μισθὸν ἔχετε; οὐχὶ καὶ οἱ τελῶναι ⸂τὸ αὐτὸ⸃ ποιοῦσιν; 
+47 καὶ 
+
+RETRIEVED #3
+Similarity: 0.522237
+Source: 69-SBLGNT-Galatians.txt
+
+ον μὴ τὴν ἐλευθερίαν 
+εἰς ἀφορμὴν τῇ σαρκί, ἀλλ ὰ διὰ τῆς ἀγάπης δουλεύετε ἀλλ ήλοις· 14 ὁ γὰρ 
+πᾶς 
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus teaches about loving others as a form of service. Specifically, in the John passage (64-SBLGNT-John.txt), Jesus states: "A new commandment I give to you: that you love one another, as I have loved you, that you also love one another."
+
+This teaching emphasizes that we should love others in the same way that Jesus has loved us, which constitutes a form of service to others. The context shows this is presented as a "new commandment" that Jesus gives to his followers.
+
+The other passages in the context (Matthew and Galatians) don't directly address Jesus' teachings about serving others, as the Galatians passage is from Paul rather than Jesus. The Matthew passage discusses loving those who love you, but this is not framed as Jesus' specific teaching about serving others.
+
+Therefore, according to the provided context, Jesus teaches that we should love one another as he has loved us, which is presented as a form of service.
+
+
+======================================================================
+EXPERIMENT 13
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Paul teach about justification?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.567025
+Source: 69-SBLGNT-Galatians.txt
+
+ὁ νόμος παιδαγωγὸς ἡμῶν 
+γέγονεν εἰς Χριστόν, ἵνα ἐκ πίστεως δικαιωθῶμεν· 25 ἐλθούσης δὲ τῆς πίστεως
+
+RETRIEVED #2
+Similarity: 0.556837
+Source: 67-SBLGNT-1Corinthians.txt
+
+μὴ Παῦλος ἐσταυρώθη 
+ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε; 14 ⸀εὐχαριστῶ ὅτι οὐδένα 
+ὑμῶν ἐβ
+
+RETRIEVED #3
+Similarity: 0.549801
+Source: 65-SBLGNT-Acts.txt
+
+ὸ συνέδριοντὸν Παῦλον καταγάγῃς εἰς τὸ συνέδριον  WH Treg NIV ] εἰς τὸ 
+συνέδριον καταγάγῃς τὸν Παῦλ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based solely on the retrieved context, Paul teaches that we are justified by faith in Christ. 
+
+The context from Galatians (69-SBLGNT-Galatians.txt) states: "ὁ νόμος παιδαγωγὸς ἡμῶν γέγονεν εἰς Χριστόν, ἵνα ἐκ πίστεως δικαιωθῶμεν" which translates to "The law has become our teacher (pedagogue) in Christ, so that we may be justified by faith."
+
+This passage specifically indicates that justification (δικαιωθῆναι) comes through faith (πίστεως), not through adherence to the law. Paul's teaching in this context emphasizes that the law functions as a pedagogical guide to lead us to Christ, with the ultimate purpose being justification by faith.
+
+
+======================================================================
+EXPERIMENT 14
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Paul teach about grace?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.552457
+Source: 74-SBLGNT-2Thessalonians.txt
+
+ χειρὶ Παύλου, ὅ ἐστιν σημεῖον ἐν πάσῃ ἐπιστολῇ· 
+οὕτως γράφω. 18 ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ Χρισ
+
+RETRIEVED #2
+Similarity: 0.550580
+Source: 65-SBLGNT-Acts.txt
+
+ὸ συνέδριοντὸν Παῦλον καταγάγῃς εἰς τὸ συνέδριον  WH Treg NIV ] εἰς τὸ 
+συνέδριον καταγάγῃς τὸν Παῦλ
+
+RETRIEVED #3
+Similarity: 0.546734
+Source: 78-SBLGNT-Philemon.txt
+
+τῷ παρρησίαν ἔχων ἐπιτάσσειν σοι τὸ ἀνῆκον, 9 διὰ 
+τὴν ἀγάπην μᾶλλ ον παρακαλῶ, τοιοῦτος ὢν ὡς Παῦλο
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based solely on the retrieved context, I can see that Paul mentions "the grace of our Lord Jesus Christ" in his letters. Specifically, in the 2 Thessalonians text (74-SBLGNT-2Thessalonians.txt), there is the phrase "18 ἡ χάρις τοῦ κυρίου ἐμῶν Ἰησοῦ Χρισ" which translates to "The grace of our Lord Jesus Christ."
+
+This phrase appears as a standard closing blessing in Paul's letters, indicating that Paul teaches that grace is a gift from God through Jesus Christ. However, the retrieved context does not provide specific detailed teachings about what Paul teaches about grace beyond this phrase and its standard usage in his letters.
+
+The context shows that Paul uses this phrase as part of his letter structure (as seen in the greeting "χειρὶ Παύλου" - "With Paul") but does not contain additional information about Paul's detailed teachings on grace.
+
+
+======================================================================
+EXPERIMENT 15
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Paul teach about the law?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.589643
+Source: 65-SBLGNT-Acts.txt
+
+ὐκ 
+ἴσχυον ἀποδεῖξαι, 8 ⸂τοῦ Παύλου ἀπολογουμένου⸃ ὅτι Οὔτε εἰς τὸν νόμον 
+τῶν Ἰουδαίων οὔτε εἰς τὸ 
+
+RETRIEVED #2
+Similarity: 0.577696
+Source: 69-SBLGNT-Galatians.txt
+
+ὁ νόμος παιδαγωγὸς ἡμῶν 
+γέγονεν εἰς Χριστόν, ἵνα ἐκ πίστεως δικαιωθῶμεν· 25 ἐλθούσης δὲ τῆς πίστεως
+
+RETRIEVED #3
+Similarity: 0.560652
+Source: 69-SBLGNT-Galatians.txt
+
+ιστὸς ⸀προεγράφη ἐσταυρωμένος; 2 τοῦτο μόνον θέλω μαθεῖν ἀφʼ ὑμῶν, ἐξ 
+ἔργων νόμου τὸ πνεῦμα ἐλάβετε
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Paul teaches that "the law is our teacher" (ὁ νόμος παιδαγωγὸς ἡμῶν) to Christ, so that we might be justified by faith rather than by the law. 
+
+In the context from Galatians, Paul states that the law functions as a pedagogue (teacher) leading us to Christ, with the purpose of justification through faith. He emphasizes that believers receive the Spirit "without works of the law" (ἀφʼ ἔργων νόμου), indicating that the law does not produce righteousness in believers but serves as a preparatory guide to Christ.
+
+This teaching appears in the context of Paul's defense against those who would try to impose the law on believers, as seen in the fragment from Acts where Paul is being defended (ἀπολογουμένου) about not being bound by the law of the Jews.
+
+
+======================================================================
+EXPERIMENT 16
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Paul teach about the resurrection?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.603485
+Source: 65-SBLGNT-Acts.txt
+
+ερί 
+τινος Ἰησοῦ τεθνηκότος, ὃν ἔφασκεν ὁ Παῦλος ζῆν. 20 ἀπορούμενος δὲ ἐγὼ τὴν 
+περὶ ⸀τούτων ζήτησι
+
+RETRIEVED #2
+Similarity: 0.551784
+Source: 67-SBLGNT-1Corinthians.txt
+
+μὴ Παῦλος ἐσταυρώθη 
+ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε; 14 ⸀εὐχαριστῶ ὅτι οὐδένα 
+ὑμῶν ἐβ
+
+RETRIEVED #3
+Similarity: 0.545407
+Source: 65-SBLGNT-Acts.txt
+
+ τῷ Παύλῳ εἶπεν· 
+Θέλεις εἰς Ἱεροσόλυμα ἀναβὰς ἐκεῖ περὶ τούτων ⸀κριθῆναι ἐπʼ ἐμοῦ; 10 εἶπεν 
+δὲ ὁ Π
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Θέλεις εἰς Ἱεροσόλυμα ἀναβὰς ἐκεῖ περὶ τούτων ⸀κριθῆναι ἐπʼ ἐμοῦ; 10 εἶπεν δὲ ὁ Π"
+
+This is another fragment from Acts. It seems to be saying "To Paul he said: Do you want to go up to Jerusalem where these things will be judged on me?"
+
+The user is asking what Paul teaches about the resurrection. Let me see if I can extract information about Paul's teachings on the resurrection from these fragments.
+
+Looking at the first fragment: "ερί τινος Ἰησοῦ τεθνηκότος, ὃν ἔφασκεν ὁ Παῦλος ζῆν" - This appears to be saying "of whom Jesus died, whom Paul said would live". So Paul is teaching that Jesus would live (resurrect) after death.
+
+The second fragment doesn't seem to directly address the resurrection but talks about Paul not being crucified for people or baptized in Paul's name.
+
+The third fragment seems to be about Paul's conversation about going to Jerusalem, but doesn't directly address the resurrection.
+
+From the context provided, I can see that Paul is associated with the teaching that Jesus would live (resurrect) after death. However, the context doesn't provide a comprehensive explanation of what Paul teaches about the resurrection - it's just a fragment that mentions that Paul said "whom Jesus died, whom Paul said would live".
+
+The context doesn't provide complete information about Paul's teachings on the resurrection. The fragments are incomplete and don't give us a full picture of what Paul taught about the resurrection.
+
+I should be careful not to make up information that isn't supported by the context. The context shows that Paul is associated with the teaching that Jesus would live (resurrect) after death, but it doesn't give us the full teachings on resurrection.
+
+Let me check if there's anything else I can interpret from these fragments:
+
+The first fragment is particularly relevant: "ερί τινος Ἰησοῦ τεθνηκότος, ὃν ἔφασκεν ὁ Παῦλος ζῆν" - This translates to "of whom Jesus died, whom Paul said would live". This indicates that Paul taught that Jesus would live (resurrect) after death.
+
+The other fragments don't seem to provide direct information about Paul's teachings on the resurrection.
+
+So based on the retrieved context, Paul is associated with teaching that Jesus would live (resurrect) after death. But this is a very limited fragment and doesn't give us a comprehensive answer about what Paul teaches about the resurrection.
+
+I should be careful to not overstate what the context shows. The context doesn't provide a complete answer to the question about what Paul teaches about the resurrection - it just shows that Paul is associated with the teaching that Jesus would live after death.
+
+The user asked "What does Paul teach about the resurrection?" and the context shows that Paul is associated with the teaching that Jesus would live (resurrect) after death. But this is a very limited fragment.
+
+Let me check if there's any other interpretation of the fragments that might help:
+
+The first fragment: "ερί τινος Ἰησοῦ τεθνηκότος, ὃν ἔφασκεν ὁ Παῦλος ζῆν" - "of whom Jesus died, whom Paul said would live"
+
+This seems to be referring to Jesus who died, and Paul taught that this person (Jesus) would live (resurrect).
+
+So Paul taught that Jesus would resurrect.
+
+The context doesn't provide much else about Paul's teachings on resurrection.
+
+I'll formulate my answer based on what I can see from the context, without making up information that isn't there.
+
+The answer should be: Based on the retrieved context, Paul is associated with the teaching that Jesus would live (resurrect) after death. However, the context provides only a fragment of this teaching and doesn't give a comprehensive explanation of what Paul teaches about the resurrection.
+
+Let me double-check if there's anything in the context that might suggest Paul taught about the resurrection in a different way.
+
+I don't see any other relevant information in the provided context about Paul's teachings on resurrection.
+
+So my answer will be limited to what's in the context: Paul is associated with the teaching that Jesus would live (resurrect) after death.
+</think>
+
+Based on the retrieved context, I can see that Paul is associated with the teaching that Jesus would live (resurrect) after death. The context shows: "ερί τινος Ἰησοῦ τεθνηκότος, ὃν ἔφασκεν ὁ Παῦλος ζῆν" (of whom Jesus died, whom Paul said would live).
+
+This fragment indicates that Paul taught that Jesus would live (resurrect) after death, but the context provides only a limited portion of this teaching. The retrieved fragments don't contain comprehensive information about Paul's full teachings on resurrection. The context shows Paul's association with this specific teaching about Jesus' resurrection, but doesn't provide details about Paul's broader teachings on resurrection.
+
+
+======================================================================
+EXPERIMENT 17
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Paul teach about the Holy Spirit?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.585556
+Source: 63-SBLGNT-Luke.txt
+
+ὴ ⸀μεριμνήσητε πῶς ⸂ἢ τί⸃ ἀπολογήσησθε ἢ τί εἴπητε· 12 τὸ γὰρ 
+ἅγιον πνεῦμα διδάξει ὑμᾶς ἐν αὐτῇ τῇ 
+
+RETRIEVED #2
+Similarity: 0.580030
+Source: 65-SBLGNT-Acts.txt
+
+τος αὐτοῖς τοῦ ⸀Παύλου χεῖρας ἦλθε 
+τὸ πνεῦμα τὸ ἅγιον ἐπʼ αὐτούς, ἐλάλουν τε γλώσσαις καὶ ἐπροφήτευ
+
+RETRIEVED #3
+Similarity: 0.560377
+Source: 65-SBLGNT-Acts.txt
+
+, ὁ καὶ Παῦλος, 
+πλησθεὶς πνεύματος ⸀ἁγίου ἀτενίσας εἰς αὐτὸν 10 εἶπεν· Ὦ πλήρης παντὸς 
+δόλου καὶ π
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the provided context, I cannot determine what Paul specifically teaches about the Holy Spirit. The context shows Paul being described as "πλησθεὶς πνεύματος ἅγιου" (filled with the Holy Spirit) in the Acts passage, but it does not explicitly include Paul teaching about the Holy Spirit.
+
+The context does mention that "the holy Spirit teaches you" (τὸ ἅγιον πνεῦμα διδάξει ὑμᾶς) in Luke 12:12, but this is not Paul teaching - it's the Holy Spirit's teaching role.
+
+The provided context shows Paul's experience with the Holy Spirit (being filled with the Holy Spirit), but it does not contain information about what Paul specifically teaches about the Holy Spirit.
+
+
+======================================================================
+EXPERIMENT 18
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Paul teach about the body of Christ?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.576225
+Source: 67-SBLGNT-1Corinthians.txt
+
+ς ἐξεγερεῖ διὰ τῆς δυνάμεως αὐτοῦ. 15 οὐκ οἴδατε ὅτι 
+τὰ σώματα ὑμῶν μέλη Χριστοῦ ἐστιν; ἄρας οὖν τὰ
+
+RETRIEVED #2
+Similarity: 0.573165
+Source: 67-SBLGNT-1Corinthians.txt
+
+οὐχὶ 
+κοινωνία τοῦ σώματος τοῦ Χριστοῦ ἐστιν; 17 ὅτι εἷς ἄρτος, ἓν σῶμα οἱ πολλ οί 
+ἐσμεν, οἱ γὰρ πά
+
+RETRIEVED #3
+Similarity: 0.568495
+Source: 67-SBLGNT-1Corinthians.txt
+
+η· εἴτε δοξάζεται ⸀μέλος, συγχαίρει πάντα τὰ μέλη.
+27 Ὑ μεῖς δέ ἐστε σῶμα Χριστοῦ καὶ μέλη ἐκ μέρους
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+εἴτε δοξάζεται ⸀μέλος, συγχαίρει πάντα τὰ μέλη." - This appears to be a fragment that might mean "Whether it is a member, rejoice for all members."
+
+6. "27 Ὑ μεῖς δέ ἐστε σῶμα Χριστοῦ καὶ μέλη ἐκ μέρους" - This seems to be a fragment that might mean "You are the body of Christ and members from parts."
+
+From these fragments, I can see that Paul is teaching about the body of Christ in 1 Corinthians, specifically in the context of the church being the body of Christ. The key points I can identify are:
+
+1. Paul teaches that believers' bodies are members of Christ (from "τὰ σώματα ὑμῶν μέλη Χριστοῦ ἐστιν")
+2. The church is one body (from "εἷς ἄρτος, ἓν σῶμα")
+3. There are many members in the body of Christ (from "οἱ πολλ οί ἐσμεν")
+4. Believers are to rejoice for all members (from "συγχαίρει πάντα τὰ μέλη")
+
+This appears to be from 1 Corinthians 12, where Paul is discussing the unity of the church as the body of Christ. The passage being referenced here is about how all believers are members of the one body of Christ, and they should value each other as parts of that body.
+
+Let me craft a response based on the context provided, making sure not to make up information that isn't in the context.
+
+The context shows that Paul teaches that believers' bodies are members of Christ, the church is one body (one bread, one body), there are many members in the body of Christ, and believers should rejoice for all members.
+</think>
+
+Based on the provided context from 1 Corinthians (SBLGNT), Paul teaches that:
+
+1. "Your bodies are the members of Christ" (τὰ σώματα ὑμῶν μέλη Χριστοῦ ἐστιν)
+
+2. The church is "one bread, one body" (εἷς ἄρτος, ἓν σῶμα) with many members
+
+3. Believers should "rejoice for all members" (συγχαίρει πάντα τὰ μέλη)
+
+4. Believers are "the body of Christ and members from parts" (ὑμεῖς δὲ ἐστε σῶμα Χριστοῦ καὶ μέλη ἐκ μέρους)
+
+These teachings emphasize that the church constitutes a single body with many interdependent members, each having a distinct role that contributes to the whole. Paul encourages believers to value and rejoice in each other as parts of this unified body of Christ.
+
+
+======================================================================
+EXPERIMENT 19
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Paul teach about salvation?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.574295
+Source: 67-SBLGNT-1Corinthians.txt
+
+μὴ Παῦλος ἐσταυρώθη 
+ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε; 14 ⸀εὐχαριστῶ ὅτι οὐδένα 
+ὑμῶν ἐβ
+
+RETRIEVED #2
+Similarity: 0.562073
+Source: 65-SBLGNT-Acts.txt
+
+ὸ συνέδριοντὸν Παῦλον καταγάγῃς εἰς τὸ συνέδριον  WH Treg NIV ] εἰς τὸ 
+συνέδριον καταγάγῃς τὸν Παῦλ
+
+RETRIEVED #3
+Similarity: 0.549450
+Source: 65-SBLGNT-Acts.txt
+
+ τῷ Παύλῳ εἶπεν· 
+Θέλεις εἰς Ἱεροσόλυμα ἀναβὰς ἐκεῖ περὶ τούτων ⸀κριθῆναι ἐπʼ ἐμοῦ; 10 εἶπεν 
+δὲ ὁ Π
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, I cannot provide a complete answer about what Paul teaches about salvation. The context shows only a fragment from 1 Corinthians that begins with "μὴ Παῦλος ἐσταυρώθη ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε" (which translates to "Was Paul crucified for you, or were you baptized in the name of Paul?"). 
+
+This fragment is a rhetorical question in 1 Corinthians 1:17-18 that implies Paul teaches that salvation (baptism) is not through his name but through Christ. However, the context does not provide a complete explanation of Paul's teachings on salvation, only this specific fragment from the biblical text.
+
+The retrieved context does not contain sufficient information to fully answer what Paul teaches about salvation in general. This fragment suggests Paul's teaching about baptism not being in his name, but it does not constitute a complete explanation of his overall teaching on salvation.
+
+
+======================================================================
+EXPERIMENT 20
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Paul teach about love?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.560712
+Source: 78-SBLGNT-Philemon.txt
+
+τῷ παρρησίαν ἔχων ἐπιτάσσειν σοι τὸ ἀνῆκον, 9 διὰ 
+τὴν ἀγάπην μᾶλλ ον παρακαλῶ, τοιοῦτος ὢν ὡς Παῦλο
+
+RETRIEVED #2
+Similarity: 0.556266
+Source: 67-SBLGNT-1Corinthians.txt
+
+ασμὸς τῇ ἐμῇ χειρὶ Παύλου. 22 εἴ τις οὐ φιλεῖ τὸν ⸀κύριον, ἤτω 
+ἀνάθεμα. ⸂Μαράνα θά⸃. 23 ἡ χάρις τοῦ
+
+RETRIEVED #3
+Similarity: 0.542283
+Source: 64-SBLGNT-John.txt
+
+λὴν καινὴν δίδωμι ὑμῖν 
+ἵνα ἀγαπᾶτε ἀλλ ήλους, καθὼς ἠγάπησα ὑμᾶς ἵνα καὶ ὑμεῖς ἀγαπᾶτε ἀλλ ήλους. 
+
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Paul teaches that if anyone does not love the Lord, they should be considered anathema (excommunicated). This is found in the fragment from 1 Corinthians (67-SBLGNT-1Corinthians.txt), where it states: "εἴ τις οὐ φιλεῖ τὸν κύριον, ἤτω ἀνάθεμα" (if anyone does not love the Lord, let him be anathema).
+
+This teaching emphasizes the essential nature of love for God in the Christian community, as Paul indicates that without this love, a person is cut off from the community.
+
+Note that the third fragment (64-SBLGNT-John.txt) is actually from John's Gospel, not Paul, so it does not represent Paul's teaching about love. The first fragment (78-SBLGNT-Philemon.txt) mentions "by love" (διὰ τὴν ἀγάπην) but does not provide specific teaching about love that is complete enough to be detailed.
+
+
+======================================================================
+EXPERIMENT 21
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does John teach about believing in Jesus?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.512307
+Source: 64-SBLGNT-John.txt
+
+πάγει. 36 ⸀ὡς τὸ φῶς ἔχετε, πιστεύετε εἰς τὸ φῶς, ἵνα 
+υἱοὶ φωτὸς γένησθε.
+ Ταῦτα ⸀ἐλάλησεν Ἰησοῦς, 
+
+RETRIEVED #2
+Similarity: 0.510911
+Source: 61-SBLGNT-Matthew.txt
+
+ τοῦ θεοῦ. 32 ἦλθεν γὰρ ⸂Ἰωάννης πρὸς 
+ὑμᾶς⸃ ἐν ὁδῷ δικαιοσύνης, καὶ οὐκ ἐπιστεύσατε αὐτῷ· οἱ δὲ τελ
+
+RETRIEVED #3
+Similarity: 0.502565
+Source: 83-SBLGNT-1John.txt
+
+ἐστὶν ἡ ἐντολὴ αὐτοῦ, 
+ἵνα ⸀πιστεύσωμεν τῷ ὀνόματι τοῦ υἱοῦ αὐτοῦ Ἰησοῦ Χριστοῦ καὶ ἀγαπῶμεν 
+ἀλλ ήλ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, John teaches that "as you have the light, believe in the light, so that you may become sons of light" (πάγει. 36 ⸀ὡς τὸ φῶς ἔχετε, πιστεύετε εἰς τὸ φῶς, ἵνα υἱοὶ φωτὸς γένησθε).
+
+This passage from John's Gospel (64-SBLGNT-John.txt) indicates that believing in Jesus as the light (the source of truth and life) is necessary for becoming children of light. The teaching emphasizes that believers should place their trust in Jesus (the light) to achieve this spiritual transformation.
+
+
+======================================================================
+EXPERIMENT 22
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does John teach about the Holy Spirit?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.552119
+Source: 63-SBLGNT-Luke.txt
+
+ὴ ⸀μεριμνήσητε πῶς ⸂ἢ τί⸃ ἀπολογήσησθε ἢ τί εἴπητε· 12 τὸ γὰρ 
+ἅγιον πνεῦμα διδάξει ὑμᾶς ἐν αὐτῇ τῇ 
+
+RETRIEVED #2
+Similarity: 0.539972
+Source: 64-SBLGNT-John.txt
+
+ησοῦς WH NIV RP ] – Treg
+ 239
+ ΚΑΤΑ  ΙΩΑΝΝΗΝ  20:22–21:6  
+καὶ λέγει αὐτοῖς· Λάβετε πνεῦμα ἅγιον· 23
+
+RETRIEVED #3
+Similarity: 0.530208
+Source: 65-SBLGNT-Acts.txt
+
+τρὸς ἣν ἠκούσατέ μου· 
+5 ὅτι Ἰωάννης μὲν ἐβάπτισεν ὕδατι, ὑμεῖς δὲ ⸂ἐν πνεύματι βαπτισθήσεσθε⸃ 
+ἁγίῳ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, John (the Gospel of John) teaches that believers should "Receive the Holy Spirit" (καὶ λέγει αὐτοῖς Λάβετε πνεῦμα ἅγιον). This teaching appears in the context of John's Gospel, specifically in the passage referenced as John 20:22-21:6.
+
+The context shows that Jesus instructs his disciples to receive the Holy Spirit, which is a significant teaching about the Holy Spirit's role in the Christian life according to John's Gospel. This teaching is part of the New Testament's message about the Holy Spirit's importance for believers.
+
+Note: The context provided doesn't contain complete information about all of John's teachings on the Holy Spirit, but it does show this specific teaching from the Gospel of John where Jesus commands his disciples to receive the Holy Spirit.
+
+
+======================================================================
+EXPERIMENT 23
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does John teach about light and darkness?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.550697
+Source: 64-SBLGNT-John.txt
+
+ Ἰησοῦς⸃ λέγων· Ἐγώ εἰμι τὸ φῶς 
+τοῦ κόσμου· ὁ ἀκολουθῶν ⸀ἐμοὶ οὐ μὴ περιπατήσῃ ἐν τῇ σκοτίᾳ, ἀλλ ʼ 
+
+RETRIEVED #2
+Similarity: 0.534871
+Source: 64-SBLGNT-John.txt
+
+ατεῖτε 
+⸀ὡς τὸ φῶς ἔχετε, ἵνα μὴ σκοτία ὑμᾶς καταλάβῃ, καὶ ὁ περιπατῶν ἐν τῇ 
+σκοτίᾳ οὐκ οἶδεν ποῦ ὑ
+
+RETRIEVED #3
+Similarity: 0.526367
+Source: 83-SBLGNT-1John.txt
+
+ς ἐν αὐτῷ καὶ ἐν ὑμῖν, ὅτι ἡ σκοτία 
+παράγεται καὶ τὸ φῶς τὸ ἀληθινὸν ἤδη φαίνει. 9 ὁ λέγων ἐν τῷ φω
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context from the SBLGNT (Society of Biblical Literature Greek New Testament), John teaches the following about light and darkness:
+
+1. Jesus identifies himself as "the light of the world" (from the first excerpt in 64-SBLGNT-John.txt).
+
+2. "He who follows me will not walk in darkness, but [will] have the light of life" (from the first excerpt).
+
+3. The light (Christ) should be shown to others so that they may see the good deeds and glorify God (from the second excerpt).
+
+4. Those who walk in darkness "do not know where to go" (from the second excerpt).
+
+5. The light shines "in us and in you" (from the 83-SBLGNT-1John.txt excerpt), indicating that believers are part of this light.
+
+6. The darkness is "produced" while "the true light already shines" (from the 1 John excerpt).
+
+These passages show that in John's teaching, light represents Christ and spiritual truth, while darkness represents spiritual ignorance, separation from God, and the consequences of not following Christ. The light (Christ) is the contrast to darkness, and those who follow Christ will not experience darkness.
+
+
+======================================================================
+EXPERIMENT 24
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does John teach about abiding in Christ?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.547517
+Source: 83-SBLGNT-1John.txt
+
+g NIV RP ] +Χριστός WH 16 μένειμένει WH NIV RP ] – Treg
+ 475
+ ΙΩΑΝΝΟΥ  Α 4:7–5:12 
+τῷ κόσμῳ τούτῳ. 1
+
+RETRIEVED #2
+Similarity: 0.546863
+Source: 64-SBLGNT-John.txt
+
+στε διὰ τὸν 
+λόγον ὃν λελάληκα ὑμῖν· 4 μείνατε ἐν ἐμοί, κἀγὼ ἐν ὑμῖν. καθὼς τὸ κλῆμα 
+οὐ δύναται καρ
+
+RETRIEVED #3
+Similarity: 0.515805
+Source: 83-SBLGNT-1John.txt
+
+ ἐδίδαξεν ὑμᾶς, ⸀μένετε ἐν αὐτῷ.
+28 Καὶ νῦν, τεκνία , μένετε  ἐν αὐτῷ, ἵνα ⸀ἐὰν φανερωθῇ  ⸀σχῶμεν  
+
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, John teaches that believers should abide (remain) in Christ. The context shows two key passages:
+
+1. In the First Epistle of John: "And now, children, abide in Him, that if He appears, we may be found" (from the fragment: "Καὶ νῦν, τεκνία , μένετε ἐν αὐτῷ, ἵνα ⸀ἐὰν φανερωθῇ ⸀σχῶμεν").
+
+2. In the Gospel of John: "Abide in me, and I in you" (from the fragment: "μείνατε ἐν ἐμοί, κἀγὼ ἐν ὑμῖν").
+
+These passages indicate that John teaches believers to remain in Christ as a necessary condition for being found with Him when Christ appears. The Greek term "μένετε" (meNETE) means "abide" or "remain," and the phrase "ἐν αὐτῷ" (en autō) means "in Him."
+
+
+======================================================================
+EXPERIMENT 25
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does the New Testament teach about loving God and loving one's neighbor?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.626944
+Source: 64-SBLGNT-John.txt
+
+λὴν καινὴν δίδωμι ὑμῖν 
+ἵνα ἀγαπᾶτε ἀλλ ήλους, καθὼς ἠγάπησα ὑμᾶς ἵνα καὶ ὑμεῖς ἀγαπᾶτε ἀλλ ήλους. 
+
+
+RETRIEVED #2
+Similarity: 0.603323
+Source: 69-SBLGNT-Galatians.txt
+
+νόμος ἐν ἑνὶ λόγῳ ⸀πεπλήρωται, ἐν τῷ· Ἀγαπήσεις τὸν πλησίον σου ὡς 
+⸀σεαυτόν. 15 εἰ δὲ ἀλλ ήλους δάκ
+
+RETRIEVED #3
+Similarity: 0.602683
+Source: 61-SBLGNT-Matthew.txt
+
+ρα ⸀δὲ ὁμοία ⸀αὐτῇ· Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν. 40 ἐν 
+ταύταις ταῖς δυσὶν ἐντολαῖς ὅλος ὁ 
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, the New Testament teaches that there is a command to love one another (as Jesus loved us) and a command to love your neighbor as yourself. Specifically:
+
+1. In John (64-SBLGNT-John.txt), it states: "I give you a new commandment: that you love one another, as I have loved you, that you also love one another."
+
+2. In Galatians (69-SBLGNT-Galatians.txt) and Matthew (61-SBLGNT-Matthew.txt), the New Testament teaches: "Love your neighbor as yourself."
+
+3. In Matthew (61-SBLGNT-Matthew.txt), it is stated: "In these two commandments the whole law is fulfilled."
+
+The retrieved context shows that loving your neighbor as yourself is one of two fundamental commandments that fulfill the whole law. However, the context provided is fragmented and does not explicitly state what the New Testament teaches about loving God specifically. The context mentions "as I have loved you" in the John passage, but does not give complete information about the commandment to love God.
+
+
+======================================================================
+EXPERIMENT 26
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does the New Testament teach about faith and works?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.595292
+Source: 69-SBLGNT-Galatians.txt
+
+ ἄνθρωπος ἐξ ἔργων νόμου ἐὰν μὴ διὰ πίστεως ⸂Ἰησοῦ Χριστοῦ⸃, 
+καὶ ἡμεῖς εἰς Χριστὸν Ἰησοῦν ἐπιστεύσα
+
+RETRIEVED #2
+Similarity: 0.573596
+Source: 80-SBLGNT-James.txt
+
+ ἐρεῖ τις· Σὺ πίστιν ἔχεις κἀγὼ ἔργα ἔχω. δεῖξόν μοι τὴν πίστιν σου 
+⸀χωρὶς τῶν ⸀ἔργων, κἀγώ ⸂σοι δε
+
+RETRIEVED #3
+Similarity: 0.560684
+Source: 80-SBLGNT-James.txt
+
+ὸ θυσιαστήριον ; 22 βλέπεις  ὅτι 
+ἡ πίστις συνήργει τοῖς ἔργοις αὐτοῦ καὶ ἐκ τῶν ἔργων ἡ πίστις ἐτελ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, the New Testament teaches that faith and works have a specific relationship:
+
+1. In Galatians (69-SBLGNT), the text indicates that "a person cannot be justified by works of the law unless through faith in Jesus Christ." This emphasizes that salvation comes through faith in Christ rather than by works of the law.
+
+2. In James (80-SBLGNT), there's a discussion where someone says "You have faith, and I have works," and the response is that "show me your faith apart from works." This suggests that genuine faith should be demonstrated through works.
+
+3. The James passage further states that "faith works with the works of itself and that faith is perfected through works," indicating that true faith produces good works.
+
+The context shows that the New Testament teaches that:
+- Salvation is received through faith in Christ, not by works of the law (Galatians)
+- Faith without works is not genuine (James)
+- True faith produces good works and is perfected through works
+
+This presents a balanced view where faith is the foundation of salvation, but genuine faith is demonstrated and perfected through appropriate works.
+
+
+======================================================================
+EXPERIMENT 27
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does the New Testament teach about resurrection?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.537336
+Source: 62-SBLGNT-Mark.txt
+
+ συζητοῦντες τί ἐστιν τὸ 
+ἐκ νεκρῶν ἀναστῆναι. 11 καὶ ἐπηρώτων αὐτὸν λέγοντες· Ὅτι λέγουσιν οἱ 
+γραμ
+
+RETRIEVED #2
+Similarity: 0.517761
+Source: 79-SBLGNT-Hebrews.txt
+
+πὸ νεκρῶν ἔργων, 
+καὶ πίστεως ἐπὶ θεόν, 2 βαπτισμῶν ⸀διδαχὴν ἐπιθέσεώς τε χειρῶν, ἀναστάσεώς 
+⸀τε νε
+
+RETRIEVED #3
+Similarity: 0.515990
+Source: 61-SBLGNT-Matthew.txt
+
+ενὶ εἴπητε τὸ ὅραμα ἕως οὗ ὁ υἱὸς τοῦ ἀνθρώπου ἐκ νεκρῶν 
+⸀ἐγερθῇ . 10 καὶ ἐπηρώτησαν  αὐτὸν  οἱ ⸀μα
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the provided context, the New Testament teaches about resurrection as a concept that involves "what it means to rise from the dead" (Mark), and it connects resurrection with "works of the dead," "faith in God," "baptism," and "teaching." There is also a specific reference to "the Son of man rising from the dead" (Matthew).
+
+The context shows that resurrection is a significant concept in the New Testament, particularly emphasizing the Son of man (Jesus) rising from the dead, and it's connected with faith in God and baptism.
+
+
+======================================================================
+EXPERIMENT 28
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does the New Testament teach about repentance?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.570358
+Source: 65-SBLGNT-Acts.txt
+
+ ⸀αὐτοῦ ἐπλήρωσεν οὕτως. 19 μετανοήσατε 
+οὖν καὶ ἐπιστρέψατε ⸀πρὸς τὸ ἐξαλειφθῆναι ὑμῶν τὰς ἁμαρτίας
+
+RETRIEVED #2
+Similarity: 0.551514
+Source: 63-SBLGNT-Luke.txt
+
+οῦντας WH Treg 
+NIV ] + ἐν RP 5 μετανοῆτεμετανοῆτε NIV RP ] μετανοήσητε WH Treg • ὡσαύτωςὡσαύτως WH 
+
+RETRIEVED #3
+Similarity: 0.542256
+Source: 87-SBLGNT-Revelation.txt
+
+ὶ μετανόησον 
+1:12 ΚαὶΚαὶ WH Treg NIV ] +  ἐκεῖ RP 13 τῶντῶν WH NIV ] +  ἑπτὰ Treg RP 
+• υἱὸνυἱὸν WH
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+The retrieved context shows that the New Testament teaches about repentance through the Greek verb *metanoeo* (to repent), which appears in the following contexts:
+
+- In Acts 2:19: "repent and return" (*metanoēsate kai epistrepsate*) with the purpose of having sins removed (*pros to exalephthēnai hēsas hamartias*).
+- In Luke: the command "repent" (*metanoēsate*).
+- In Revelation: the command "repent" (*metanoēsō*).
+
+This demonstrates that repentance is a command to change one's mind (*metanoeo*) and return, with the purpose of having sins removed.
+
+
+======================================================================
+EXPERIMENT 29
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does the New Testament teach about forgiveness?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.543301
+Source: 61-SBLGNT-Matthew.txt
+
+ἐπιούσιον δὸς ἡμῖν 
+σήμερον· 12 καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ⸀ἀφήκαμεν 
+τοῖς ὀφειλ
+
+RETRIEVED #2
+Similarity: 0.534277
+Source: 64-SBLGNT-John.txt
+
+λὴν καινὴν δίδωμι ὑμῖν 
+ἵνα ἀγαπᾶτε ἀλλ ήλους, καθὼς ἠγάπησα ὑμᾶς ἵνα καὶ ὑμεῖς ἀγαπᾶτε ἀλλ ήλους. 
+
+
+RETRIEVED #3
+Similarity: 0.529617
+Source: 65-SBLGNT-Acts.txt
+
+ ἄφεσιν ⸀τῶν ἁμαρτιῶν ⸀ὑμῶν, καὶ λήμψεσθε τὴν δωρεὰν 
+τοῦ ἁγίου πνεύματος· 39 ὑμῖν γάρ ἐστιν ἡ ἐπαγγ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context from the New Testament in Koine Greek (SBLGNT version), here's what the New Testament teaches about forgiveness:
+
+The New Testament teaches that believers should ask for forgiveness of their debts (sins) as they have forgiven others. This is clearly stated in the Lord's Prayer (Matthew 6:9-13): "καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ⸀ἀφήκαμεν τοῖς ὀφειλ" (and forgive us our debts, as we also have forgiven our debtors).
+
+Additionally, forgiveness is connected to love and mutual relationships. In John's Gospel, Jesus teaches that believers should "love one another, as I have loved you" (λὴν καινὴν δίδωμι ὑμῖν ἵνα ἀγαπᾶτε ἀλλ ήλους, καθὼς ἠγάπησα ὑμᾶς).
+
+The New Testament also shows that forgiveness of sins is part of the Christian faith, as seen in Acts where Peter mentions "ἄφεσιν ⸀τῶν ἁμαρτιῶν ⸀ὑμῶν" (forgiveness of your sins).
+
+These passages indicate that forgiveness is both a necessary practice for believers and a reflection of the love that Jesus demonstrated.
+
+
+======================================================================
+EXPERIMENT 30
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+How does Jesus Christ feel towards the Pharisees?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.588956
+Source: 64-SBLGNT-John.txt
+
+λ ʼ ἡ ὀργὴ τοῦ θεοῦ μένει ἐπʼ αὐτόν.
+4:1 Ὡς οὖν ἔγνω ὁ ⸀Ἰησοῦς  ὅτι ἤκουσαν  οἱ Φαρισαῖοι  ὅτι Ἰησοῦ
+
+RETRIEVED #2
+Similarity: 0.551349
+Source: 61-SBLGNT-Matthew.txt
+
+ οἱ ⸀μαθηταὶ ⸀λέγουσιν αὐτῷ· Οἶδας ὅτι οἱ Φαρισαῖοι ἀκούσαντες 
+τὸν λόγον ἐσκανδαλίσθησαν ; 13 ὁ δὲ 
+
+RETRIEVED #3
+Similarity: 0.550427
+Source: 64-SBLGNT-John.txt
+
+ον· Ὁ χριστὸς ὅταν ἔλθῃ ⸀μὴ πλείονα ⸀σημεῖα 
+ποιήσει ὧν οὗτος ἐποίησεν;
+32 Ἤκουσαν οἱ Φαρισαῖοι τοῦ 
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context provided, I cannot determine how Jesus Christ feels toward the Pharisees.
+
+The context shows fragments of Greek New Testament texts (John and Matthew) that indicate:
+- Jesus knew that the Pharisees had heard something about Him (John 4:1)
+- The disciples were speaking to Jesus about how the Pharisees had heard His teachings
+- There's a reference to the Pharisees stumbling over His teachings
+
+However, the context does not contain any explicit information about Jesus's feelings, emotions, or emotional state toward the Pharisees. The text shows Jesus's awareness of the Pharisees' reaction to His teachings, but it doesn't describe or indicate Jesus's personal feelings toward them.
+
+The question asks specifically about "how does Jesus Christ feel," but the retrieved context does not provide information about Jesus's emotional state or feelings toward the Pharisees.
+
+
+======================================================================
+EXPERIMENT 31
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Jesus teach about loving one's enemies?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.643896
+Source: 61-SBLGNT-Matthew.txt
+
+4 ἐγὼ δὲ λέγω ὑμῖν, ἀγαπᾶτε τοὺς ἐχθροὺς ⸀ὑμῶν καὶ 
+προσεύχεσθε ὑπὲρ ⸀τῶν διωκόντων ὑμᾶς· 45 ὅπως γέ
+
+RETRIEVED #2
+Similarity: 0.628899
+Source: 63-SBLGNT-Luke.txt
+
+ ἀγαπᾶτε  τοὺς ἐχθροὺς  ὑμῶν, 
+καλῶς ποιεῖτε τοῖς μισοῦσιν ὑμᾶς, 28 εὐλογεῖτε τοὺς καταρωμένους ⸀ὑμᾶ
+
+RETRIEVED #3
+Similarity: 0.612542
+Source: 63-SBLGNT-Luke.txt
+
+ατέρες αὐτῶν.
+27  Ἀλλὰ  ὑμῖν λέγω τοῖς ἀκούουσιν , ἀγαπᾶτε  τοὺς ἐχθροὺς  ὑμῶν, 
+καλῶς ποιεῖτε τοῖς 
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus teaches that believers should:
+
+1. Love their enemies (ἀγαπᾶτε τοὺς ἐχθροὺς ὑμῶν)
+2. Do good to those who hate them (καλῶς ποιεῖτε τοῖς μισοῦσιν ὑμᾶς)
+3. Pray for those who persecute them (προσεύχεσθε ὑπὲρ τῶν διωκόντων ὑμᾶς)
+4. Bless those who curse them (εὐλογεῖτε τοὺς καταρωμένους)
+
+These teachings appear in both the Gospel of Matthew (4:1-4) and the Gospel of Luke (27-28), where Jesus instructs his followers to love their enemies as a radical commandment that goes beyond normal expectations. The context shows this teaching as part of Jesus' direct address to those who hear him, emphasizing its importance for believers.
+
+
+======================================================================
+EXPERIMENT 32
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Paul teach about faith?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.563389
+Source: 65-SBLGNT-Acts.txt
+
+επάτησεν. 9 οὗτος ⸀ἤκουσεν τοῦ 
+Παύλου λαλοῦντος· ὃς ἀτενίσας αὐτῷ καὶ ἰδὼν ὅτι ⸂ἔχει πίστιν⸃ τοῦ σω
+
+RETRIEVED #2
+Similarity: 0.545097
+Source: 65-SBLGNT-Acts.txt
+
+ τῷ Παύλῳ εἶπεν· 
+Θέλεις εἰς Ἱεροσόλυμα ἀναβὰς ἐκεῖ περὶ τούτων ⸀κριθῆναι ἐπʼ ἐμοῦ; 10 εἶπεν 
+δὲ ὁ Π
+
+RETRIEVED #3
+Similarity: 0.545029
+Source: 67-SBLGNT-1Corinthians.txt
+
+μὴ Παῦλος ἐσταυρώθη 
+ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε; 14 ⸀εὐχαριστῶ ὅτι οὐδένα 
+ὑμῶν ἐβ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based solely on the provided context, I cannot give a complete answer about what Paul teaches about faith. The context contains only fragments of Greek text from Acts and 1 Corinthians that don't provide Paul's teachings on faith.
+
+The context shows:
+- "ἔχει πίστιν" (has faith) - this appears in the Acts fragment where someone "heard Paul speaking" and "saw that he has faith in the Lord"
+- This fragment describes Paul having faith, not Paul teaching about faith
+
+The context doesn't contain any direct teachings from Paul about faith. It only shows that Paul is described as having faith (πίστιν) in the Lord, but doesn't provide Paul's teachings on the subject. The text is a fragment from Acts 9:9 and 1 Corinthians, but doesn't contain Paul's instructional content about faith.
+
+The question asks what Paul "teaches" about faith, but the provided context doesn't include Paul's teachings - it only shows a description of Paul having faith.
+
+
+======================================================================
+EXPERIMENT 33
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does John teach about eternal life?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.603271
+Source: 83-SBLGNT-1John.txt
+
+εὸς Treg NIV RP
+ 476
+5:13–21  ΙΩΑΝΝΟΥ  Α
+13 Ταῦτα ἔγραψα ⸀ὑμῖν ἵνα εἰδῆτε ὅτι ζωὴν ⸂ἔχετε αἰώνιον⸃ ,
+
+RETRIEVED #2
+Similarity: 0.583546
+Source: 61-SBLGNT-Matthew.txt
+
+οσελθὼν ⸂αὐτῷ εἶπεν⸃· ⸀Διδάσκαλε, τί ἀγαθὸν ποιήσω 
+ἵνα ⸀σχῶ ζωὴν αἰώνιον; 17 ὁ δὲ εἶπεν αὐτῷ· Τί με
+
+RETRIEVED #3
+Similarity: 0.562747
+Source: 64-SBLGNT-John.txt
+
+ ἐστιν ἡ αἰώνιος ζωὴ ἵνα γινώσκωσι 
+σὲ τὸν μόνον ἀληθινὸν θεὸν καὶ ὃν ἀπέστειλας Ἰησοῦν Χριστόν. 4 ἐ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+"
+   - Translation: "After this, he said to him: Teacher, what good thing shall I do that I may have eternal life?"
+
+3. [64-SBLGNT-John.txt] - This appears to be from John, verse 3-4 (though the numbering seems off)
+   - "ἐστιν ἡ αἰώνις ζωὴ ἵνα γινώσκωσι σὲ τὸν μόνον ἀληθινὸν θεὸν καὶ ὃν ἀπέστειλας Ἰησοῦν Χριστόν."
+   - Translation: "Eternal life is that which knows you, the only true God and the one whom you sent, Jesus Christ."
+
+The question asks specifically about what John teaches about eternal life. Looking at the context, there's a passage from John (the gospel) that says: "Eternal life is that which knows you, the only true God and the one whom you sent, Jesus Christ."
+
+This appears to be John 3:16-17 in Greek, though the numbering in the context seems off.
+
+Let me check the exact meaning of this passage:
+"ἐστιν ἡ αἰώνις ζωὴ ἵνα γινώσκωσι σὲ τὸν μόνον ἀληθινὸν θεὸν καὶ ὃν ἀπέστειλας Ἰησοῦν Χριστόν."
+
+This translates to: "Eternal life is that which knows you, the only true God and the one whom you sent, Jesus Christ."
+
+This is actually a bit of a tricky translation. The Greek says "Eternal life is [the state of] knowing [the one who is] the only true God and the one whom you sent, Jesus Christ."
+
+The key point here is that according to this passage from John, eternal life is defined as knowing Jesus Christ - the only true God and the one whom God sent.
+
+Let me check the context again to be sure. The passage appears to be John 3:16-17 but the text is a bit fragmented.
+
+In the context, it says: "ἐστιν ἡ αἰώνις ζωὴ ἵνα γινώσκωσι σὲ τὸν μόνον ἀληθινὸν θεὸν καὶ ὃν ἀπέστειλας Ἰησοῦν Χριστόν."
+
+This is actually a fragment of John 3:16, which in standard Greek would be: "καὶ ἐπεὶ ἐλθὼν ἐκ τοῦ πατρὸς τὸν θεὸν ἀληθινὸν ἐποίησεν ἐμοί, ἐξαποστέλλω τὸν θεόν τοῦ πατρὸς ἐπὶ τὸν θεὸν αὐτοῦ καὶ τὸν Ἰησοῦν τὸν Χριστόν"
+
+But the fragment provided seems to be saying that eternal life is knowing Jesus Christ - the only true God and the one whom you sent.
+
+Actually, let me look at this more carefully. The phrase "ἐστιν ἡ αἰώνις ζωὴ" means "Eternal life is". Then "ἵνα γινώσκωσι" means "that one may know". So the whole phrase translates to "Eternal life is that one may know you, the only true God and the one whom you sent, Jesus Christ."
+
+This is actually quite a bit different from what I initially thought. The phrase "ἵνα γινώσκωσι" means "that one may know" or "in order to know".
+
+So the full meaning is: "Eternal life is that one may know you, the only true God and the one whom you sent, Jesus Christ."
+
+This is actually a fragment of John 3:16, which talks about the one who knows Jesus Christ.
+
+Let me check what the standard John 3:16 says in Greek:
+
+"καὶ ἐπεὶ ἐλθὼν ἐκ τοῦ πατρὸς τὸν θεὸν ἀληθινὸν ἐποίησεν ἐμοί, ἐξαποστέλλω τὸν θεόν τοῦ πατρὸς ἐπὶ τὸν θεὸν αὐτοῦ καὶ τὸν Ἰησοῦν τὸν Χριστόν"
+
+Actually, this is a bit confusing. Let me look at the context again.
+
+The context says: "ἐστιν ἡ αἰώνις ζωὴ ἵνα γινώσκωσι σὲ τὸν μόνον ἀληθινὸν θεὸν καὶ ὃν ἀπέστειλας Ἰησοῦν Χριστόν."
+
+This appears to be John 3:16-17, but the exact translation is: "Eternal life is that one may know you, the only true God and the one whom you sent, Jesus Christ."
+
+This makes sense in the context of John's teaching about eternal life.
+
+So, John teaches that eternal life is knowing Jesus Christ - the only true God and the one whom God sent.
+
+Let me check if there's more context in the provided snippets that might help answer the question.
+
+The first snippet (1 John) says: "These I have written to you so that you may know that you have eternal life."
+
+This suggests that in 1 John, eternal life is something that believers have.
+
+The second snippet (Matthew) shows a question about what one should do to have eternal life, but it's not from John's gospel.
+
+The third snippet (John) shows that eternal life is knowing Jesus Christ.
+
+So, based on the retrieved context, John teaches that eternal life is knowing Jesus Christ - the only true God and the one whom God sent.
+
+The exact phrase in Greek is: "ἐστιν ἡ αἰώνις ζωὴ ἵνα γινώσκωσι σὲ τὸν μόνον ἀληθινὸν θεὸν καὶ ὃν ἀπέστειλας Ἰησοῦν Χριστόν."
+
+This translates to: "Eternal life is that one may know you, the only true God and the one whom you sent, Jesus Christ."
+
+So, John teaches that eternal life is the knowledge of Jesus Christ.
+
+Let me make sure I'm not making up information. The context explicitly provides this passage from John, so I can use it.
+
+To summarize: According to the retrieved context, John teaches that eternal life is knowing Jesus Christ - the only true God and the one whom God sent.
+
+I'll formulate my answer based on this understanding, making sure to only use the information from the context provided.
+</think>
+
+Based on the retrieved context, John teaches that eternal life is defined as "knowing you, the only true God and the one whom you sent, Jesus Christ." 
+
+The specific passage from John (as shown in the context) states: "ἐστιν ἡ αἰώνις ζωὴ ἵνα γινώσκωσι σὲ τὸν μόνον ἀληθινὸν θεὸν καὶ ὃν ἀπέστειλας Ἰησοῦν Χριστόν." 
+
+This translates to: "Eternal life is that one may know you, the only true God and the one whom you sent, Jesus Christ."
+
+This teaching appears in the context as a fragment from John's gospel, emphasizing that eternal life involves knowing Jesus Christ as the only true God and the one whom God sent.
+
+
+======================================================================
+EXPERIMENT 34
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Jesus teach about forgiveness?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.537533
+Source: 61-SBLGNT-Matthew.txt
+
+ησοῦς εἶπεν ⸂πρὸς αὐτόν⸃· Ἄφες ἄρτι, οὕτως γὰρ πρέπον 
+ἐστὶν ἡμῖν πληρῶσαι πᾶσαν δικαιοσύνην. τότε ἀ
+
+RETRIEVED #2
+Similarity: 0.512110
+Source: 72-SBLGNT-Colossians.txt
+
+μεν τὴν ἀπολύτρωσιν, τὴν ἄφεσιν τῶν ἁμαρτιῶν· 15 ὅς ἐστιν εἰκὼν τοῦ 
+1:1 Χριστοῦ ἸησοῦΧριστοῦ  Ἰησοῦ
+
+RETRIEVED #3
+Similarity: 0.510389
+Source: 62-SBLGNT-Mark.txt
+
+ ⸂καὶ ἰδὼν⸃ ὁ Ἰησοῦς τὴν 
+πίστιν αὐτῶν λέγει τῷ παραλυτικῷ· Τέκνον, ⸂ἀφίενταί σου⸃ αἱ ⸀ἁμαρτίαι. 
+6 
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+15 ὅς ἐστιν εἰκὼν τοῦ 
+1:1 Χριστοῦ ἸησοῦΧριστοῦ  Ἰησοῦ"
+
+This seems to be a fragment about "the release, the forgiveness of sins" but it's a bit messy and the context is incomplete. It mentions "τὴν ἄφεσιν τῶν ἁμαρτιῶν" which means "the forgiveness of sins".
+
+3. From [62-SBLGNT-Mark.txt]:
+" ⸂καὶ ἰδὼν⸃ ὁ Ἰησοῦς τὴν 
+πίστιν αὐτῶν λέγει τῷ παραλυτικῷ<tool_call> Τέκνον, ⸂ἀφίενταί σου⸃ αἱ ⸀ἁμαρτίαι."
+
+This appears to be a fragment from Mark where Jesus says "Son, the sins of you are forgiven." The phrase "ἀφίενταί σου" means "forgiven" or "you are forgiven".
+
+Let me focus on the key information about forgiveness from Jesus:
+
+From Matthew: Jesus says "Forgive us, for this is how we must fulfill all righteousness." This seems to be Jesus teaching about forgiving others, but the context is a bit unclear.
+
+From Mark: Jesus says "Son, the sins of you are forgiven." This is a statement about forgiveness being granted to the person, not necessarily teaching about how to forgive others.
+
+The question is about "what does Jesus teach about forgiveness". So I need to focus on teaching about forgiveness (i.e., how to forgive, why we should forgive, etc.) rather than just statements about forgiveness being granted.
+
+Looking at the context more carefully:
+
+The Mark passage seems to be Jesus saying to a person "Your sins are forgiven" (as part of healing or exorcism). This is a statement about forgiveness being granted, not a teaching about how to forgive.
+
+The Matthew passage seems to be Jesus saying to God or to people "Forgive us, for this is how we must fulfill all righteousness." This might be Jesus teaching about the necessity of forgiveness.
+
+Let me try to interpret what Jesus teaches about forgiveness based on these fragments:
+
+The most relevant teaching about forgiveness appears to be in the Mark passage where Jesus says "Son, the sins of you are forgiven." However, this is a statement about forgiveness being granted, not a teaching about how to forgive others.
+
+In the Matthew passage, Jesus says "Forgive us" which suggests that Jesus himself is teaching about forgiveness (possibly as a response to the people's sins).
+
+Actually, let me re-read the context more carefully:
+
+From the Mark text: "ξενοφωντικὸς τὴν πίστιν αὐτῶν λέγει τῷ παραλυτικῷ<tool_call> Τέκνον, ⸂ἀφίενταί σου⸃ αἱ ⸀ἁμαρτίαι."
+
+This seems to be saying: "Seeing their faith, Jesus says to the paralytic: 'Son, your sins are forgiven.'"
+
+This is a statement about Jesus forgiving sins (as part of his healing ministry), not a teaching about how to forgive others.
+
+For a teaching about forgiveness, I should look for the context where Jesus is teaching about forgiving others. But the retrieved context doesn't seem to have that specific teaching.
+
+Let me check if there's any other information in the context:
+
+The Colossians text mentions "τὴν ἄφεσιν τῶν ἁμαρτιῶν" which means "the forgiveness of sins", but this is from the New Testament book of Colossians, not Jesus teaching directly about forgiveness.
+
+Based on the retrieved context, I can see that:
+1. Jesus says "Forgive us" (Matthew)
+2. Jesus says "Your sins are forgiven" (Mark)
+
+But the context doesn't provide a clear teaching about how Jesus teaches about forgiveness to others (i.e., how to forgive others).
+
+Wait, let me be more precise about what each fragment says:
+
+From Matthew: "ησοῦς εἶπεν ⸂πρὸς αὐτόν⸃<tool_call> Ἄφες ἄρτι, οὕτως γὰρ πρέπον 
+ἐστὶν ἡμῖν πληρῶσαι πᾶσαν δικαιοσύνην."
+
+This appears to be Jesus saying "Forgive us, for this is how we must fulfill all righteousness." This is a statement about Jesus forgiving others (the people he's speaking to).
+
+From Mark: "ξενοφωντικὸς τὴν πίστιν αὐτῶν λέγει τῷ παραλυτικῷ<tool_call> Τέκνον, ⸂ἀφίενταί σου⸃ αἱ ⸀ἁμαρτίαι."
+
+This appears to be Jesus saying to the paralytic "Son, your sins are forgiven."
+
+So the retrieved context shows Jesus teaching about forgiveness in two ways:
+1. Jesus saying "Forgive us" (to people)
+2. Jesus saying "Your sins are forgiven" (to a person)
+
+But the question is about "what does Jesus teach about forgiveness", which would be about how Jesus teaches others to forgive, not what Jesus says about his own forgiveness.
+
+The context doesn't provide a clear teaching about how to forgive others. The fragments seem to be about Jesus forgiving people, not Jesus teaching others how to forgive.
+
+Let me think about what the context might be saying about Jesus teaching about forgiveness:
+
+Actually, I think I need to be careful here. The context is in Greek, so I need to interpret it correctly.
+
+The key phrase in the Mark fragment is "ἀφίενταί σου" which means "forgiven" or "you are forgiven". This is a statement about forgiveness being granted.
+
+The Matthew fragment has "Ἄφες ἄρτι" which means "Forgive us" (as in "for the sake of us, forgive us").
+
+Let me try to be more precise:
+
+The context shows:
+- Jesus says "Forgive us" (Matthew)
+- Jesus says "Your sins are forgiven" (Mark)
+
+These are statements about forgiveness being granted by Jesus, not Jesus teaching how to forgive others.
+
+The question is about "what does Jesus teach about forgiveness" - meaning what Jesus teaches about the concept of forgiveness, how it should be practiced, etc.
+
+Based on the retrieved context, I don't have complete information about Jesus teaching about forgiveness (as in how to forgive others). The context shows Jesus saying that he forgives people (in the Mark passage) and Jesus saying "Forgive us" (in the Matthew passage).
+
+I should be careful not to make up information that isn't supported by the context.
+
+Let me formulate an answer based on what I can see:
+
+The retrieved context shows that Jesus says "Forgive us" (from Matthew) and Jesus says "Your sins are forgiven" (from Mark). But these are statements about Jesus forgiving people, not Jesus teaching about how to forgive others.
+
+Actually, I think I've made a mistake in my interpretation. Let me re-read the context more carefully.
+
+In the Mark text: "ξενοφωντικὸς τὴν πίστιν αὐτῶν λέγει τῷ παραλυτικῷ<tool_call> Τέκνον, ⸂ἀφίενταί σου⸃ αἱ ⸀ἁμαρτίαι."
+
+This seems to be saying: "Seeing their faith, Jesus says to the paralytic: 'Son, your sins are forgiven.'"
+
+This is Jesus forgiving the person's sins, not Jesus teaching about forgiveness.
+
+The Matthew text: "ησοῦς εἶπεν ⸂πρὸς αὐτόν⸃<tool_call> Ἄφες ἄρτι, οὕτως γὰρ πρέπον 
+ἐστὶν ἡμῖν πληρῶσαι πᾶσαν δικαιοσύνην."
+
+This seems to be Jesus saying "Forgive us, for this is how we must fulfill all righteousness."
+
+So from the context, I can see that Jesus teaches that forgiveness is necessary (in the Matthew passage) and that Jesus himself forgives sins (in the Mark passage).
+
+But I don't have information about what Jesus teaches about forgiving others.
+
+Let me check if there's any other relevant information in the context:
+
+The Colossians text: "μεν τὴν ἀπολύτρωσιν, τὴν ἄφεσιν τῶν ἁμαρτιῶν" - this means "the release, the forgiveness of sins", but it's from Colossians, not Jesus teaching directly.
+
+So based on the retrieved context, I can say:
+
+Jesus teaches about forgiveness by saying "Forgive us" (in Matthew) and by saying "Your sins are forgiven" (in Mark). But this is more about Jesus forgiving people than Jesus teaching about how to forgive others.
+
+Actually, let me check the question again: "What does Jesus teach about forgiveness?"
+
+The context shows that Jesus says "Forgive us" (which implies that forgiveness is necessary) and Jesus says "Your sins are forgiven" (which shows that Jesus has the power to forgive sins).
+
+But the context doesn't provide a clear teaching about how Jesus teaches others to forgive others.
+
+Given the limited context, I should be careful not to overstate what I know. I'll formulate an answer based on what I can see in the context.
+
+The most relevant teaching about forgiveness from the context is that Jesus says "Forgive us" (Matthew) which implies that forgiveness is necessary for righteousness.
+
+I'll try to phrase this carefully.
+
+Actually, I think I need to be more precise about the Greek:
+
+In the Matthew text: "Ἄφες ἄρτι" means "Forgive us" (literally "For the sake of us, forgive us" - but in context it's likely "Forgive us").
+
+In the Mark text: "ἀφίενταί σου" means "you are forgiven" or "your sins are forgiven".
+
+So Jesus teaches that forgiveness is necessary (in the Matthew passage) and that Jesus has the authority to forgive sins (in the Mark passage).
+
+But the question is about "what does Jesus teach about forgiveness", so I should focus on what Jesus teaches about the concept of forgiveness.
+
+I think the best answer I can provide based on the context is that Jesus teaches that forgiveness is necessary (as in the Matthew passage) and that Jesus has the authority to forgive sins (as in the Mark passage).
+
+However, the context doesn't provide a teaching about how to forgive others, so I shouldn't make up that information.
+
+Let me formulate the answer:
+
+Based on the retrieved context, Jesus teaches that forgiveness is necessary (as indicated by his saying "Forgive us, for this is how we must fulfill all righteousness") and that Jesus has the authority to forgive sins (as indicated by his saying "Your sins are forgiven").
+
+Actually, I think I need to be more precise about what the context shows. The context shows Jesus saying "Forgive us" (which is a statement about what Jesus says to people) and Jesus saying "Your sins are forgiven" (which is a statement about what Jesus does).
+
+Let me try one more time:
+
+The retrieved context shows:
+1. In Matthew: Jesus says "Forgive us, for this is how we must fulfill all righteousness."
+2. In Mark: Jesus says "Your sins are forgiven."
+
+So Jesus teaches that forgiveness is necessary (as in the Matthew passage) and that Jesus has the authority to forgive sins (as in the Mark passage).
+
+But the question is about "what does Jesus teach about forgiveness" - meaning what Jesus teaches about the concept of forgiveness.
+
+Given the context, I can say that Jesus teaches that forgiveness is necessary (as in the Matthew passage) and that Jesus has the authority to forgive sins (as in the Mark passage).
+
+This is the most accurate answer I can give based on the retrieved context.
+</think>
+
+Based on the retrieved context, Jesus teaches that forgiveness is necessary (as indicated by his saying "Forgive us, for this is how we must fulfill all righteousness" from Matthew). Additionally, the context shows that Jesus has the authority to forgive sins (as indicated by his saying "Your sins are forgiven" from Mark).
+
+The context provides these specific teachings about forgiveness without making explicit statements about how others should forgive. The retrieved texts show Jesus teaching about forgiveness as a necessary component of righteousness and as an act of authority that Jesus possesses.
+
+
+======================================================================
+EXPERIMENT 35
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Jesus teach about prayer?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.553008
+Source: 63-SBLGNT-Luke.txt
+
+ς αὐτόν· Κύριε, δίδαξον ἡμᾶς 
+προσεύχεσθαι, καθὼς καὶ Ἰωάννης ἐδίδαξεν τοὺς μαθητὰς αὐτοῦ. 2 εἶπεν δ
+
+RETRIEVED #2
+Similarity: 0.543398
+Source: 63-SBLGNT-Luke.txt
+
+ον , ὡς 
+ἐπαύσατο, εἶπέν τις τῶν μαθητῶν αὐτοῦ πρὸς αὐτόν· Κύριε, δίδαξον ἡμᾶς 
+προσεύχεσθαι, καθὼς 
+
+RETRIEVED #3
+Similarity: 0.537462
+Source: 63-SBLGNT-Luke.txt
+
+καὶ Ἰωάννης ἐδίδαξεν τοὺς μαθητὰς αὐτοῦ. 2 εἶπεν δὲ 
+αὐτοῖς· Ὅταν προσεύχησθε, λέγετε· ⸀Πάτερ, ἁγιασ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus teaches his disciples to pray with the Lord's Prayer, which begins with "Father, hallowed" (Πάτερ, ἁγιασ in Greek). The context shows Jesus saying: "When you pray, say" (Ὅταν προσεύχησθε, λέγετε), indicating that he teaches his disciples to pray using this specific prayer pattern.
+
+The passage also mentions that Jesus teaches his disciples to pray "as John taught his disciples" (καθὼς καὶ Ἰωάννης ἐδίδαξεν τοὺς μαθητὰς αὐτοῦ), showing that Jesus is instructing his followers in the pattern of prayer that was previously taught by John the Baptist.
+
+This teaching appears to be from Luke 11:1-2 in the Septuagint (SBLGNT) translation of the New Testament, where Jesus provides his disciples with the model prayer that begins with "Father, hallowed."
+
+
+======================================================================
+EXPERIMENT 36
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Jesus teach about humility?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.516323
+Source: 71-SBLGNT-Philippians.txt
+
+Ἰησοῦν Χριστόν, 21 ὃς 
+μετασχηματίσει τὸ σῶμα τῆς ταπεινώσεως ⸀ἡμῶν σύμμορφον τῷ σώματι τῆς 
+δόξης α
+
+RETRIEVED #2
+Similarity: 0.516027
+Source: 61-SBLGNT-Matthew.txt
+
+τὰ παιδία, οὐ μὴ εἰσέλθητε εἰς τὴν βασιλείαν τῶν οὐρανῶν. 
+4 ὅστις οὖν ταπεινώσει ἑαυτὸν ὡς τὸ παιδί
+
+RETRIEVED #3
+Similarity: 0.502881
+Source: 61-SBLGNT-Matthew.txt
+
+ ἔτι ὑστερῶ; 21 ἔφη αὐτῷ ὁ Ἰησοῦς· Εἰ θέλεις τέλειος 
+εἶναι, ὕπαγε πώλησόν σου τὰ ὑπάρχοντα καὶ ⸀δὸς
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus teaches that true humility is exemplified by "humbles himself like a child" (ταπεινώσει ἑαυτὸν ὡς τὸ παιδί) - this appears in the Matthew 18:4 passage fragment.
+
+This teaching is directly stated in the context where Jesus says: "ὅστις οὖν ταπεινώσει ἑαυτὸν ὡς τὸ παιδί" (who humbles himself like a child).
+
+The context also shows that Jesus' own humility is referenced in Philippians 2:5-7 where it mentions "Ἰησοῦν Χριστόν, 21 ὃς μετασχηματίσει τὸ σῶμα τῆς ταπεινώσεως" (who will transform the body of humility).
+
+So according to the provided Koine Greek text, Jesus teaches that humility is demonstrated by being like a child in attitude and behavior.
+
+
+======================================================================
+EXPERIMENT 37
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Jesus say about the kingdom of God?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.584474
+Source: 63-SBLGNT-Luke.txt
+
+ε ἔρχεται ἡ βασιλεία τοῦ 
+θεοῦ ἀπεκρίθη αὐτοῖς καὶ εἶπεν· Οὐκ ἔρχεται ἡ βασιλεία τοῦ θεοῦ μετὰ 
+παρα
+
+RETRIEVED #2
+Similarity: 0.575865
+Source: 63-SBLGNT-Luke.txt
+
+ἶναι Ἰερουσαλὴμ αὐτὸν⸃ καὶ δοκεῖν αὐτοὺς ὅτι παραχρῆμα μέλλ ει ἡ βασιλεία 
+τοῦ θεοῦ ἀναφαίνεσθαι· 12
+
+RETRIEVED #3
+Similarity: 0.574982
+Source: 64-SBLGNT-John.txt
+
+ί· τί ἐποίησας; 36 ἀπεκρίθη Ἰησοῦς· Ἡ βασιλεία ἡ ἐμὴ οὐκ ἔστιν ἐκ τοῦ 
+κόσμου τούτου· εἰ ἐκ τοῦ κόσμ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the provided context from the SBLGNT (Society of Biblical Literature Greek New Testament), Jesus states:
+
+"Ἡ βασιλεία ἡ ἐμὴ οὐκ ἔστιν ἐκ τοῦ κόσμου τούτου" (My kingdom is not of this world)
+
+This statement appears in John 18:36 where Jesus responds to a question about his kingdom. The context shows that Jesus is making it clear that his kingdom is not part of the current worldly system or political order.
+
+
+======================================================================
+EXPERIMENT 38
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Jesus teach about wealth and possessions?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.625451
+Source: 63-SBLGNT-Luke.txt
+
+, ἦν γὰρ πλούσιος σφόδρα. 24 Ἰδὼν 
+δὲ αὐτὸν ὁ ⸀Ἰησοῦς εἶπεν· Πῶς δυσκόλως οἱ τὰ χρήματα ἔχοντες ⸂εἰς
+
+RETRIEVED #2
+Similarity: 0.615239
+Source: 63-SBLGNT-Luke.txt
+
+22 ἀκούσας 
+⸀δὲ ὁ Ἰησοῦς εἶπεν αὐτῷ· Ἔτι ἕν σοι λείπει· πάντα ὅσα ἔχεις πώλησον καὶ 
+διάδος πτωχοῖς,
+
+RETRIEVED #3
+Similarity: 0.597776
+Source: 61-SBLGNT-Matthew.txt
+
+ ἔτι ὑστερῶ; 21 ἔφη αὐτῷ ὁ Ἰησοῦς· Εἰ θέλεις τέλειος 
+εἶναι, ὕπαγε πώλησόν σου τὰ ὑπάρχοντα καὶ ⸀δὸς
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus teaches that one should sell all they have and give to the poor. This teaching appears in both Luke and Matthew:
+
+In Luke (from the context): "πάντα ἔχεις πώλησον καὶ διάδος πτωχοῖς" (Sell all you have and give to the poor)
+
+In Matthew (from the context): "πώλησόν σου τὰ ὑπάρχοντα καὶ ⸀δὸς" (Sell what you have and give)
+
+The context shows that Jesus instructs people to give up their possessions and provide for the poor as part of following him, emphasizing the importance of material giving in the Christian life. This teaching appears in the context of Jesus saying that if someone wants to be perfect, they should sell their possessions and give to the poor.
+
+
+======================================================================
+EXPERIMENT 39
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Jesus teach about repentance?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.553620
+Source: 65-SBLGNT-Acts.txt
+
+έτρος δὲ 
+⸂πρὸς αὐτούς· Μετανοήσατε⸃, καὶ βαπτισθήτω ἕκαστος ὑμῶν ⸀ἐπὶ τῷ ὀνόματι 
+Ἰησοῦ Χριστοῦ εἰς
+
+RETRIEVED #2
+Similarity: 0.543569
+Source: 65-SBLGNT-Acts.txt
+
+ ⸀αὐτοῦ ἐπλήρωσεν οὕτως. 19 μετανοήσατε 
+οὖν καὶ ἐπιστρέψατε ⸀πρὸς τὸ ἐξαλειφθῆναι ὑμῶν τὰς ἁμαρτίας
+
+RETRIEVED #3
+Similarity: 0.538216
+Source: 61-SBLGNT-Matthew.txt
+
+τειλεν αὐτοῖς. 17 Ἀπὸ τότε ἤρξατο ὁ Ἰησοῦς κηρύσσειν καὶ λέγειν· 
+Μετανοεῖτε, ἤγγ ικεν γὰρ ἡ βασιλεί
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus teaches about repentance by saying "Repent" (μετανοεῖτε) as part of his call to follow him. Specifically, the context shows a fragment from the Gospel of Matthew where Jesus says: "Repent, for the kingdom of heaven is at hand" (Μετανοεῖτε, ἤγγ ικεν γὰρ ἡ βασιλεί).
+
+This teaching appears in the context of Jesus beginning his public ministry, where he calls people to repentance as a necessary response to the coming kingdom of heaven. The context indicates that repentance is connected with turning away from sin and is part of the broader message of the kingdom of heaven.
+
+
+======================================================================
+EXPERIMENT 40
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Jesus say about loving God?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.598887
+Source: 61-SBLGNT-Matthew.txt
+
+τολὴ μεγάλη ἐν τῷ νόμῳ; 37 ὁ ⸀δὲ ἔφη αὐτῷ· 
+Ἀγαπήσεις κύριον τὸν θεόν σου ἐν ὅλῃ ⸀τῇ καρδίᾳ σου καὶ 
+
+RETRIEVED #2
+Similarity: 0.595609
+Source: 62-SBLGNT-Mark.txt
+
+μῶν κύριος εἷς ἐστιν, 30 καὶ ἀγαπήσεις κύριον τὸν θεόν σου ἐξ 
+ὅλης ⸀τῆς καρδίας σου καὶ ἐξ ὅλης τῆς
+
+RETRIEVED #3
+Similarity: 0.588686
+Source: 83-SBLGNT-1John.txt
+
+ἐστὶν ἡ ἐντολὴ αὐτοῦ, 
+ἵνα ⸀πιστεύσωμεν τῷ ὀνόματι τοῦ υἱοῦ αὐτοῦ Ἰησοῦ Χριστοῦ καὶ ἀγαπῶμεν 
+ἀλλ ήλ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus says that we should love God with all our heart. 
+
+The context shows fragments from Matthew (61-SBLGNT-Matthew.txt) and Mark (62-SBLGNT-Mark.txt) where Jesus states: "ἀγαπήσεις κύριον τὸν θεόν σου ἐν ὅλῃ τῇ καρδίᾳ σου" (you shall love your Lord your God with all your heart).
+
+This teaching appears in both the Gospel of Matthew (verse 22:37) and the Gospel of Mark (verse 12:30), where Jesus instructs his followers to love God with all their heart. The context indicates that this is part of Jesus' teaching about the proper way to love God.
+
+
+======================================================================
+EXPERIMENT 41
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Jesus teach about serving others?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.563112
+Source: 64-SBLGNT-John.txt
+
+λὴν καινὴν δίδωμι ὑμῖν 
+ἵνα ἀγαπᾶτε ἀλλ ήλους, καθὼς ἠγάπησα ὑμᾶς ἵνα καὶ ὑμεῖς ἀγαπᾶτε ἀλλ ήλους. 
+
+
+RETRIEVED #2
+Similarity: 0.530963
+Source: 62-SBLGNT-Mark.txt
+
+ῃ 
+⸂μέγας γενέσθαι⸃ ἐν ὑμῖν, ἔσται ὑμῶν διάκονος, 44 καὶ ὃς ⸀ἂν θέλῃ ⸂ἐν ὑμῖν 
+εἶναι⸃ πρῶτος, ἔσται 
+
+RETRIEVED #3
+Similarity: 0.530804
+Source: 61-SBLGNT-Matthew.txt
+
+ ἔτι ὑστερῶ; 21 ἔφη αὐτῷ ὁ Ἰησοῦς· Εἰ θέλεις τέλειος 
+εἶναι, ὕπαγε πώλησόν σου τὰ ὑπάρχοντα καὶ ⸀δὸς
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Εἰ θέλεις τέλειος 
+   εἶναι, ὕπαγε πώλησόν σου τὰ ὑπάρχοντα καὶ ⸀δὸς
+
+   This translates to: "If you want to be perfect, go sell what you have and give to the poor."
+
+The user is asking about what Jesus teaches about serving others. Let me analyze what these passages say about serving others:
+
+From John:
+- Jesus teaches that we should love one another as he loved us (a commandment to love others)
+
+From Mark:
+- There's a mention of serving others (though the text is fragmented and damaged)
+
+From Matthew:
+- Jesus teaches that to be perfect, one should sell what they have and give to the poor (which relates to serving others through generosity)
+
+The most direct teaching about serving others appears to be in the John passage where Jesus gives a commandment to love one another as he loved us. This is a teaching about serving others through love.
+
+In the Matthew passage, Jesus talks about giving to the poor as a way to serve others, though this is more about generosity than active service.
+
+The Mark passage seems to be about serving others being related to being a servant, but it's fragmented so it's less clear.
+
+So, based on the context provided, Jesus teaches that we should love one another as he loved us (John), and that we should give to the poor to be perfect (Matthew). Both passages relate to serving others, but the John passage provides the clearest teaching about serving others through love.
+
+I should note that the Mark passage appears to be incomplete (with damaged text) so I'll focus on the clearer teachings from John and Matthew.
+
+Let me craft a response that accurately reflects what the context shows about Jesus' teachings on serving others:
+
+The context shows that in John's Gospel, Jesus teaches a new commandment: "that you love one another, as I have loved you, that you also love one another." This is a direct teaching about loving and serving others.
+
+In Matthew's Gospel, Jesus teaches that if one wants to be perfect, they should "go sell what you have and give to the poor." This is a teaching about serving others through generosity.
+
+The Mark passage is fragmented and doesn't provide a clear teaching about serving others that I can confidently state.
+
+So the answer should focus on the teachings from John and Matthew about serving others.
+
+I need to be careful not to add information that's not in the context. The context doesn't provide full teachings about serving others, but it does show fragments that relate to this topic.
+
+Let me check if there's a more precise interpretation:
+
+For John: The passage seems to be saying Jesus gives a new commandment that we should love one another as he loved us.
+
+For Matthew: The passage says if you want to be perfect, sell what you have and give to the poor.
+
+For Mark: The passage is fragmented but seems to be saying something about serving others being important.
+
+I'll craft a response based on what's clearly stated in the context.
+</think>
+
+Based on the retrieved context, Jesus teaches about serving others in two key passages:
+
+1. In John's Gospel (64-SBLGNT-John.txt), Jesus gives "a new commandment: that you love one another, as I have loved you, that you also love one another." This teaching emphasizes loving others as Jesus loved us as a fundamental way of serving.
+
+2. In Matthew's Gospel (61-SBLGNT-Matthew.txt), Jesus states: "If you want to be perfect, go sell what you have and give to the poor." This teaching connects serving others with generosity and giving to the poor as a path to perfection.
+
+The Mark passage (62-SBLGNT-Mark.txt) contains a fragment about serving others but is damaged in the text (with symbols like ⸂ and ⸃), so it doesn't provide a clear teaching about serving others that I can fully interpret from the context.
+
+The most direct teaching about serving others from the context is Jesus' command to love one another as he loved us.
+
+
+======================================================================
+EXPERIMENT 42
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Paul teach about justification?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.574077
+Source: 69-SBLGNT-Galatians.txt
+
+ἐκ πίστεως δικαιωθῶμεν· 25 ἐλθούσης δὲ τῆς πίστεως 
+οὐκέτι ὑπὸ παιδαγωγόν ἐσμεν. 26 πάντες γὰρ υἱοὶ 
+
+RETRIEVED #2
+Similarity: 0.567025
+Source: 69-SBLGNT-Galatians.txt
+
+ὁ νόμος παιδαγωγὸς ἡμῶν 
+γέγονεν εἰς Χριστόν, ἵνα ἐκ πίστεως δικαιωθῶμεν· 25 ἐλθούσης δὲ τῆς πίστεως
+
+RETRIEVED #3
+Similarity: 0.556837
+Source: 67-SBLGNT-1Corinthians.txt
+
+μὴ Παῦλος ἐσταυρώθη 
+ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε; 14 ⸀εὐχαριστῶ ὅτι οὐδένα 
+ὑμῶν ἐβ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Paul teaches in Galatians that believers are justified by faith (ἐκ πίστεως δικαιωθῶμεν - "we are justified by faith"). The context shows that Paul emphasizes that believers are no longer under a tutor (παιδαγωγός) - meaning they are not subject to the law as a tutor to Christ. 
+
+Specifically, the text indicates that "the law has become our tutor to Christ, so that we may be justified by faith" (ὁ νόμος παιδαγωγὸς ἡμῶν γέγονεν εἰς Χριστόν, ἵνα ἐκ πίστεως δικαιωθῶμεν).
+
+This teaching appears in the context of Paul's argument that justification comes through faith in Christ rather than through adherence to the law. The fragments show Paul's view that believers are no longer under the law's tutelage (παιδαγωγός) but are instead justified by faith.
+
+
+======================================================================
+EXPERIMENT 43
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Paul teach about grace?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.581336
+Source: 68-SBLGNT-2Corinthians.txt
+
+ς τῷ θεῷ ἐπὶ τῇ ἀνεκδιηγήτῳ αὐτοῦ δωρεᾷ.
+10:1 Αὐτὸς δὲ ἐγὼ Παῦλος παρακαλῶ  ὑμᾶς διὰ τῆς πραΰτητος  
+
+RETRIEVED #2
+Similarity: 0.552457
+Source: 74-SBLGNT-2Thessalonians.txt
+
+ χειρὶ Παύλου, ὅ ἐστιν σημεῖον ἐν πάσῃ ἐπιστολῇ· 
+οὕτως γράφω. 18 ἡ χάρις τοῦ κυρίου ἡμῶν Ἰησοῦ Χρισ
+
+RETRIEVED #3
+Similarity: 0.552287
+Source: 65-SBLGNT-Acts.txt
+
+ρὸς τὸν Παῦλον ἔφη· Ἐπιτρέπεταί σοι ⸀ὑπὲρ σεαυτοῦ 
+λέγειν. τότε ὁ Παῦλος ⸂ἐκτείνας τὴν χεῖρα ἀπελογε
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Paul mentions "the grace of our Lord Jesus Christ" (ἡ χάρις τοῦ κυρίου ἐμῶν Ἰησοῦ Χρισ) in a fragment from 2 Thessalonians (74-SBLGNT-2Thessalonians.txt). This phrase appears as a closing element in his letter to the Thessalonians, where he states "οὕτως γράφω. 18 ἡ χάρις τοῦ κυρίου ἐμῶν Ἰησοῦ Χρισ" (Thus I write. 18 The grace of our Lord Jesus Christ).
+
+The context provided does not contain detailed teachings about grace from Paul's perspective beyond this closing phrase. While the phrase "the grace of our Lord Jesus Christ" is a standard expression in New Testament Greek and appears in many of Paul's letters, the retrieved context does not include specific teachings about grace that would allow me to provide a comprehensive answer about what Paul teaches about grace.
+
+The context shows Paul's recognition of grace as an important aspect of Christian faith, but it does not contain the full teaching on grace that would be needed to answer the question thoroughly.
+
+
+======================================================================
+EXPERIMENT 44
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Paul teach about the law?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.589643
+Source: 65-SBLGNT-Acts.txt
+
+ὐκ 
+ἴσχυον ἀποδεῖξαι, 8 ⸂τοῦ Παύλου ἀπολογουμένου⸃ ὅτι Οὔτε εἰς τὸν νόμον 
+τῶν Ἰουδαίων οὔτε εἰς τὸ 
+
+RETRIEVED #2
+Similarity: 0.577696
+Source: 69-SBLGNT-Galatians.txt
+
+ὁ νόμος παιδαγωγὸς ἡμῶν 
+γέγονεν εἰς Χριστόν, ἵνα ἐκ πίστεως δικαιωθῶμεν· 25 ἐλθούσης δὲ τῆς πίστεως
+
+RETRIEVED #3
+Similarity: 0.569215
+Source: 65-SBLGNT-Acts.txt
+
+ς 
+ζηλωταὶ τοῦ νόμου ὑπάρχουσιν· 21 κατηχήθησαν δὲ περὶ σοῦ ὅτι ἀποστασίαν 
+διδάσκεις  ἀπὸ Μωϋσέως τ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Paul teaches that the law functions as a "tutor" (παιδαγωγὸς) to lead people to Christ, rather than being the basis for justification. 
+
+Specifically, the context shows from Galatians (69-SBLGNT-Galatians.txt): "ὁ νόμος παιδαγωγὸς ἡμῶν γέγονεν εἰς Χριστόν, ἵνα ἐκ πίστεως δικαιωθῶμεν" (The law has become our tutor to Christ, so that we may be justified by faith).
+
+This teaching indicates that Paul views the law as a temporary guide that leads people to Christ, where true justification comes through faith rather than through adherence to the law. The context also shows that there were people who were "zealous for the law" (ζηλωταὶ τοῦ νόμου ὑπάρχουσιν), suggesting Paul's teaching was responding to those who wanted to follow the law for justification.
+
+
+======================================================================
+EXPERIMENT 45
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Paul teach about the resurrection?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.603485
+Source: 65-SBLGNT-Acts.txt
+
+ερί 
+τινος Ἰησοῦ τεθνηκότος, ὃν ἔφασκεν ὁ Παῦλος ζῆν. 20 ἀπορούμενος δὲ ἐγὼ τὴν 
+περὶ ⸀τούτων ζήτησι
+
+RETRIEVED #2
+Similarity: 0.551784
+Source: 67-SBLGNT-1Corinthians.txt
+
+μὴ Παῦλος ἐσταυρώθη 
+ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε; 14 ⸀εὐχαριστῶ ὅτι οὐδένα 
+ὑμῶν ἐβ
+
+RETRIEVED #3
+Similarity: 0.545407
+Source: 65-SBLGNT-Acts.txt
+
+ τῷ Παύλῳ εἶπεν· 
+Θέλεις εἰς Ἱεροσόλυμα ἀναβὰς ἐκεῖ περὶ τούτων ⸀κριθῆναι ἐπʼ ἐμοῦ; 10 εἶπεν 
+δὲ ὁ Π
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Paul taught that Jesus would live (resurrect) after dying. The context shows this in the fragment from Acts: "ερί τινος Ἰησοῦ τεθνηκότος, ὃν ἔφασκεν ὁ Παῦλος ζῆν" which translates to "about someone Jesus who died, whom Paul said would live."
+
+This fragment indicates that Paul taught about the resurrection of Jesus, specifically that Jesus (who died) would live again (resurrect). The context does not provide complete information about Paul's broader teachings on resurrection beyond this reference to Jesus' resurrection.
+
+
+======================================================================
+EXPERIMENT 46
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Paul teach about the Holy Spirit?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.597347
+Source: 63-SBLGNT-Luke.txt
+
+· 12 τὸ γὰρ 
+ἅγιον πνεῦμα διδάξει ὑμᾶς ἐν αὐτῇ τῇ ὥρᾳ ἃ δεῖ εἰπεῖν.
+13 Εἶπεν δέ τις ⸂ἐκ τοῦ ὄχλου αὐ
+
+RETRIEVED #2
+Similarity: 0.585556
+Source: 63-SBLGNT-Luke.txt
+
+ὴ ⸀μεριμνήσητε πῶς ⸂ἢ τί⸃ ἀπολογήσησθε ἢ τί εἴπητε· 12 τὸ γὰρ 
+ἅγιον πνεῦμα διδάξει ὑμᾶς ἐν αὐτῇ τῇ 
+
+RETRIEVED #3
+Similarity: 0.580030
+Source: 65-SBLGNT-Acts.txt
+
+τος αὐτοῖς τοῦ ⸀Παύλου χεῖρας ἦλθε 
+τὸ πνεῦμα τὸ ἅγιον ἐπʼ αὐτούς, ἐλάλουν τε γλώσσαις καὶ ἐπροφήτευ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context provided, I cannot identify what Paul teaches about the Holy Spirit. The context contains passages from Luke 6:12-13 and Acts 19:1-2, but these are not Paul's teachings about the Holy Spirit.
+
+The context shows:
+- Luke 6:12-13: The Holy Spirit teaching people what to say (not Paul's teachings)
+- Acts 19:1-2: The Holy Spirit coming upon Paul's hands and people speaking in tongues and prophesying
+
+These passages describe events involving the Holy Spirit and Paul, but they do not contain Paul's teachings about the Holy Spirit as the question asks. The context does not provide any information about what Paul taught regarding the Holy Spirit.
+
+
+======================================================================
+EXPERIMENT 47
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Paul teach about the body of Christ?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.625382
+Source: 67-SBLGNT-1Corinthians.txt
+
+τι 
+τὰ σώματα ὑμῶν μέλη Χριστοῦ ἐστιν; ἄρας οὖν τὰ μέλη τοῦ Χριστοῦ ποιήσω 
+πόρνης μέλη; μὴ γένοιτο.
+
+RETRIEVED #2
+Similarity: 0.594549
+Source: 66-SBLGNT-Romans.txt
+
+5 οὕτως οἱ πολλ οὶ ἓν 
+σῶμά ἐσμεν ἐν Χριστῷ, ⸀τὸ δὲ καθʼ εἷς ἀλλ ήλων μέλη. 6 ἔχοντες δὲ χαρίσματα 
+
+
+RETRIEVED #3
+Similarity: 0.589937
+Source: 67-SBLGNT-1Corinthians.txt
+
+
+27 Ὑ μεῖς δέ ἐστε σῶμα Χριστοῦ καὶ μέλη ἐκ μέρους. 28 καὶ οὓς μὲν 
+ἔθετο ὁ θεὸς ἐν τῇ ἐκκλησίᾳ πρῶτ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the provided context, Paul teaches that:
+
+1. Believers form one body in Christ (as indicated in Romans 12:4-5: "So many are one body in Christ, but each has different members")
+
+2. Each believer is a member of this body (as shown in 1 Corinthians 12:27: "You are the body of Christ and members from parts")
+
+3. The body of Christ consists of diverse members who work together in unity (the context shows Paul emphasizes that there are different members within the one body)
+
+Paul's teaching emphasizes that the church is a unified body where each believer serves as a distinct member with specific roles, all united in Christ. This concept appears in both the Romans passage (where Paul describes the unity of believers) and the Corinthians passage (where Paul identifies believers as the body of Christ with different parts).
+
+
+======================================================================
+EXPERIMENT 48
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Paul teach about salvation?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.574295
+Source: 67-SBLGNT-1Corinthians.txt
+
+μὴ Παῦλος ἐσταυρώθη 
+ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε; 14 ⸀εὐχαριστῶ ὅτι οὐδένα 
+ὑμῶν ἐβ
+
+RETRIEVED #2
+Similarity: 0.562073
+Source: 65-SBLGNT-Acts.txt
+
+ὸ συνέδριοντὸν Παῦλον καταγάγῃς εἰς τὸ συνέδριον  WH Treg NIV ] εἰς τὸ 
+συνέδριον καταγάγῃς τὸν Παῦλ
+
+RETRIEVED #3
+Similarity: 0.549450
+Source: 65-SBLGNT-Acts.txt
+
+ τῷ Παύλῳ εἶπεν· 
+Θέλεις εἰς Ἱεροσόλυμα ἀναβὰς ἐκεῖ περὶ τούτων ⸀κριθῆναι ἐπʼ ἐμοῦ; 10 εἶπεν 
+δὲ ὁ Π
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+I cannot provide an accurate answer about what Paul teaches about salvation based on the retrieved context. The context provided consists of only fragments of Greek New Testament texts (SBLGNT) that are incomplete and do not contain specific teachings about salvation. 
+
+The fragments include:
+1. A partial line from 1 Corinthians: "μὴ Παῦλος ἐσταυρώθη ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε" (which appears to be questioning whether Paul was crucified for you or if you were baptized in the name of Paul)
+2. Fragments from Acts about Paul being led into a meeting
+3. A partial line where someone asks Paul if he wants to go to Jerusalem
+
+These fragments do not contain a complete teaching on salvation from Paul. The context provided is insufficient to answer what Paul teaches about salvation.
+
+
+======================================================================
+EXPERIMENT 49
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does Paul teach about love?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.586805
+Source: 78-SBLGNT-Philemon.txt
+
+
+τὴν ἀγάπην μᾶλλ ον παρακαλῶ, τοιοῦτος ὢν ὡς Παῦλος πρεσβύτης νυνὶ δὲ 
+καὶ δέσμιος ⸂Χριστοῦ Ἰησοῦ⸃— 
+
+RETRIEVED #2
+Similarity: 0.560712
+Source: 78-SBLGNT-Philemon.txt
+
+τῷ παρρησίαν ἔχων ἐπιτάσσειν σοι τὸ ἀνῆκον, 9 διὰ 
+τὴν ἀγάπην μᾶλλ ον παρακαλῶ, τοιοῦτος ὢν ὡς Παῦλο
+
+RETRIEVED #3
+Similarity: 0.556266
+Source: 67-SBLGNT-1Corinthians.txt
+
+ασμὸς τῇ ἐμῇ χειρὶ Παύλου. 22 εἴ τις οὐ φιλεῖ τὸν ⸀κύριον, ἤτω 
+ἀνάθεμα. ⸂Μαράνα θά⸃. 23 ἡ χάρις τοῦ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Paul teaches about love in these specific ways:
+
+1. Paul "beseeches" (urges) people with love (τὴν ἀγάπην μᾶλλ ον παρακαλῶ)
+
+2. Paul emphasizes that love for God is essential, stating that "if anyone does not love the Lord, let him be anathema" (εἴ τις οὐ φιλεῖ τὸν κύριον, ἤτω ἀνάθεμα)
+
+The context shows Paul using love (ἀγάπη) as both the foundation for his appeals and as a necessary condition for relationship with God. These fragments demonstrate that in Paul's teaching, love serves as a critical element in both personal relationship with God and in how believers should interact with one another.
+
+
+======================================================================
+EXPERIMENT 50
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does John teach about believing in Jesus?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.545328
+Source: 64-SBLGNT-John.txt
+
+δέν, πάντα δὲ ὅσα εἶπεν Ἰωάννης 
+περὶ τούτου ἀληθῆ ἦν. 42 καὶ ⸂πολλ οὶ ἐπίστευσαν εἰς αὐτὸν ἐκεῖ⸃.
+1
+
+RETRIEVED #2
+Similarity: 0.539155
+Source: 65-SBLGNT-Acts.txt
+
+ἰς τὸν ἐρχόμενον  μετʼ  αὐτὸν ἵνα 
+πιστεύσωσιν, τοῦτʼ ἔστιν εἰς ⸀τὸν Ἰησοῦν. 5 ἀκούσαντες δὲ ἐβαπτίσ
+
+RETRIEVED #3
+Similarity: 0.522504
+Source: 64-SBLGNT-John.txt
+
+ Ἰησοῦς δὲ ἔκραξεν καὶ εἶπεν· Ὁ πιστεύων εἰς ἐμὲ οὐ πιστεύει εἰς ἐμὲ 
+ἀλλ ὰ εἰς τὸν πέμψαντά με, 45 
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, John teaches that belief in Jesus involves a relationship with the one who sent Jesus. The key passage appears in the context as:
+
+"Ἰησοῦς δὲ ἔκραξεν καὶ εἶπεν<tool_call> Ὁ πιστεύων εἰς ἐμὲ οὐ πιστεύει εἰς ἐμὲ 
+ἀλλ ὰ εἰς τὸν πέμψαντά με, 45"
+
+This translates to: "The one who believes in me does not believe in me, but in the one who sent me."
+
+This teaching emphasizes that true belief in Jesus goes beyond merely believing in Jesus himself—it involves believing in the one who sent Jesus (the Father). In John's Gospel, this concept appears as a fundamental aspect of faith, where belief in Jesus is connected to the relationship with the Father who sent him.
+
+The context also mentions that "many believed in him" (πολλ οὶ ἐπίστευσαν εἰς αὐτὸν ἐκεῖ), showing that belief in Jesus was a significant response to Jesus' teachings.
+
+
+======================================================================
+EXPERIMENT 51
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does John teach about the Holy Spirit?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.565085
+Source: 63-SBLGNT-Luke.txt
+
+· 12 τὸ γὰρ 
+ἅγιον πνεῦμα διδάξει ὑμᾶς ἐν αὐτῇ τῇ ὥρᾳ ἃ δεῖ εἰπεῖν.
+13 Εἶπεν δέ τις ⸂ἐκ τοῦ ὄχλου αὐ
+
+RETRIEVED #2
+Similarity: 0.552119
+Source: 63-SBLGNT-Luke.txt
+
+ὴ ⸀μεριμνήσητε πῶς ⸂ἢ τί⸃ ἀπολογήσησθε ἢ τί εἴπητε· 12 τὸ γὰρ 
+ἅγιον πνεῦμα διδάξει ὑμᾶς ἐν αὐτῇ τῇ 
+
+RETRIEVED #3
+Similarity: 0.550995
+Source: 65-SBLGNT-Acts.txt
+
+ὶ ζέων τῷ πνεύματι ἐλάλει καὶ ἐδίδασκεν ἀκριβῶς 
+τὰ περὶ τοῦ ⸀Ἰησοῦ, ἐπιστάμενος μόνον τὸ βάπτισμα Ἰ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+I cannot provide an answer about what John (the Gospel of John) teaches about the Holy Spirit based on the retrieved context. 
+
+The context provided consists of fragments from Luke 12 and Acts (SBLGNT versions), not from the Gospel of John. The text shows what Jesus taught about the Holy Spirit in Luke 12:12 ("For the holy Spirit will teach you in that hour what you must say"), but this is from the Gospel of Luke, not from the Gospel of John.
+
+The retrieved context does not contain any information about what the Gospel of John teaches about the Holy Spirit, as the context is specifically from Luke and Acts rather than John the Gospel.
+
+
+======================================================================
+EXPERIMENT 52
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does John teach about light and darkness?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.555769
+Source: 64-SBLGNT-John.txt
+
+ς· Ἔτι μικρὸν χρόνον τὸ φῶς ⸂ἐν ὑμῖν⸃ ἐστιν. περιπατεῖτε 
+⸀ὡς τὸ φῶς ἔχετε, ἵνα μὴ σκοτία ὑμᾶς καταλ
+
+RETRIEVED #2
+Similarity: 0.550697
+Source: 64-SBLGNT-John.txt
+
+ Ἰησοῦς⸃ λέγων· Ἐγώ εἰμι τὸ φῶς 
+τοῦ κόσμου· ὁ ἀκολουθῶν ⸀ἐμοὶ οὐ μὴ περιπατήσῃ ἐν τῇ σκοτίᾳ, ἀλλ ʼ 
+
+RETRIEVED #3
+Similarity: 0.545771
+Source: 64-SBLGNT-John.txt
+
+άβῃ, καὶ ὁ περιπατῶν ἐν τῇ 
+σκοτίᾳ οὐκ οἶδεν ποῦ ὑπάγει. 36 ⸀ὡς τὸ φῶς ἔχετε, πιστεύετε εἰς τὸ φῶς, 
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context from the Gospel of John in the SBLGNT (Society of Biblical Literature Greek New Testament), John teaches the following about light and darkness:
+
+1. Jesus identifies himself as "the light of the world" (Ἐγώ εἰμι τὸ φῶς τοῦ κόσμου)
+
+2. Those who follow Jesus should not walk in darkness (ὁ ἀκολουθῶν οὐ μὴ περιπατήσῃ ἐν τῇ σκοτίᾳ)
+
+3. Those who walk in darkness do not know where they are going (ὁ περιπατῶν ἐν τῇ σκοτίᾳ οὐκ οἶδεν ποῦ ὑπάγει)
+
+4. Believers should have the light and believe in the light (ὡς τὸ φῶς ἔχετε, πιστεύετε εἰς τὸ φῶς)
+
+The context shows that light represents truth, guidance, and salvation, while darkness represents error, ignorance, and spiritual death. John emphasizes that Jesus is the source of light that leads people out of darkness and that those who follow Jesus should walk in the light rather than in darkness.
+
+
+======================================================================
+EXPERIMENT 53
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does John teach about abiding in Christ?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.551668
+Source: 84-SBLGNT-2John.txt
+
+ε. 9 πᾶς ὁ ⸀προάγων καὶ μὴ μένων ἐν τῇ διδαχῇ τοῦ Χριστοῦ θεὸν 
+οὐκ ἔχει· ὁ μένων ἐν τῇ ⸀διδαχῇ, οὗτ
+
+RETRIEVED #2
+Similarity: 0.547517
+Source: 83-SBLGNT-1John.txt
+
+g NIV RP ] +Χριστός WH 16 μένειμένει WH NIV RP ] – Treg
+ 475
+ ΙΩΑΝΝΟΥ  Α 4:7–5:12 
+τῷ κόσμῳ τούτῳ. 1
+
+RETRIEVED #3
+Similarity: 0.546863
+Source: 64-SBLGNT-John.txt
+
+στε διὰ τὸν 
+λόγον ὃν λελάληκα ὑμῖν· 4 μείνατε ἐν ἐμοί, κἀγὼ ἐν ὑμῖν. καθὼς τὸ κλῆμα 
+οὐ δύναται καρ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, John (the Gospel) teaches that believers should "abide in Christ" (μείνατε ἐν ἐμοί) and Christ abides in believers (κἀγὼ ἐν ὑμῖν). This reciprocal relationship is explicitly stated in the fragment from 64-SBLGNT-John.txt, which shows that abiding in Christ is a fundamental teaching in John's Gospel. The context indicates this relationship is essential, as those who do not abide in Christ's teaching (μὴ μένων ἐν τῇ διδαχῇ τοῦ Χριστοῦ) do not have God, as mentioned in the 84-SBLGNT-2John.txt fragment.
+
+
+======================================================================
+EXPERIMENT 54
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does the New Testament teach about loving God and loving one's neighbor?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.626944
+Source: 64-SBLGNT-John.txt
+
+λὴν καινὴν δίδωμι ὑμῖν 
+ἵνα ἀγαπᾶτε ἀλλ ήλους, καθὼς ἠγάπησα ὑμᾶς ἵνα καὶ ὑμεῖς ἀγαπᾶτε ἀλλ ήλους. 
+
+
+RETRIEVED #2
+Similarity: 0.603323
+Source: 69-SBLGNT-Galatians.txt
+
+νόμος ἐν ἑνὶ λόγῳ ⸀πεπλήρωται, ἐν τῷ· Ἀγαπήσεις τὸν πλησίον σου ὡς 
+⸀σεαυτόν. 15 εἰ δὲ ἀλλ ήλους δάκ
+
+RETRIEVED #3
+Similarity: 0.602683
+Source: 61-SBLGNT-Matthew.txt
+
+ρα ⸀δὲ ὁμοία ⸀αὐτῇ· Ἀγαπήσεις τὸν πλησίον σου ὡς σεαυτόν. 40 ἐν 
+ταύταις ταῖς δυσὶν ἐντολαῖς ὅλος ὁ 
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the provided context, the New Testament teaches that there are two commandments that form the whole law (as indicated in the Matthew passage). One of these commandments is "love your neighbor as yourself." Additionally, Jesus gives a new commandment to love one another as he has loved them (as shown in the John passage). The context also indicates that "the law is fulfilled in one word: love your neighbor as yourself" (from Galatians).
+
+The context specifically shows that the New Testament presents "love your neighbor as yourself" as one of the two foundational commandments, with Jesus providing a new commandment for mutual love. However, the context does not explicitly state what the first commandment (loving God) is, though it implies there are two commandments that together form the complete law.
+
+
+======================================================================
+EXPERIMENT 55
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does the New Testament teach about faith and works?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.595292
+Source: 69-SBLGNT-Galatians.txt
+
+ ἄνθρωπος ἐξ ἔργων νόμου ἐὰν μὴ διὰ πίστεως ⸂Ἰησοῦ Χριστοῦ⸃, 
+καὶ ἡμεῖς εἰς Χριστὸν Ἰησοῦν ἐπιστεύσα
+
+RETRIEVED #2
+Similarity: 0.575766
+Source: 69-SBLGNT-Galatians.txt
+
+μαθεῖν ἀφʼ ὑμῶν, ἐξ 
+ἔργων νόμου τὸ πνεῦμα ἐλάβετε ἢ ἐξ ἀκοῆς πίστεως; 3 οὕτως ἀνόητοί ἐστε; 
+ἐναρξά
+
+RETRIEVED #3
+Similarity: 0.574657
+Source: 69-SBLGNT-Galatians.txt
+
+ἐθνῶν ἁμαρτωλοί, 16 εἰδότες ⸀δὲ ὅτι 
+οὐ δικαιοῦται ἄνθρωπος ἐξ ἔργων νόμου ἐὰν μὴ διὰ πίστεως ⸂Ἰησοῦ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context from Galatians in the SBLGNT (Society of Biblical Literature Greek New Testament), I can provide the following answer about what the New Testament teaches about faith and works:
+
+The context shows that according to Paul's teaching in Galatians (specifically what appears to be 2:16), a person is not justified by works of the law if not by faith. The passage states: "οὐ δικαιοῦται ἄνθρωπος ἐξ ἔργων νόμου ἐὰν μὴ διὰ πίστεως" (a person is not justified by works of law if not by faith).
+
+This passage emphasizes that justification (being made right with God) comes through faith in Christ, not through works of the law. The context also shows that the Holy Spirit is received through faith, not through works of the law.
+
+The retrieved context specifically demonstrates that in the New Testament, faith in Christ is the means by which a person is justified, while works of the law do not contribute to this justification when faith is absent.
+
+Note: The retrieved context only shows this specific passage from Galatians, so I'm limited to this particular teaching from the New Testament rather than providing comprehensive information about the entire New Testament's teaching on faith and works.
+
+
+======================================================================
+EXPERIMENT 56
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does the New Testament teach about resurrection?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.537336
+Source: 62-SBLGNT-Mark.txt
+
+ συζητοῦντες τί ἐστιν τὸ 
+ἐκ νεκρῶν ἀναστῆναι. 11 καὶ ἐπηρώτων αὐτὸν λέγοντες· Ὅτι λέγουσιν οἱ 
+γραμ
+
+RETRIEVED #2
+Similarity: 0.530603
+Source: 67-SBLGNT-1Corinthians.txt
+
+ριστὸς κηρύσσεται ὅτι ἐκ νεκρῶν ἐγήγερται, πῶς λέγουσιν 
+⸂ἐν ὑμῖν τινες⸃ ὅτι ἀνάστασις νεκρῶν οὐκ ἔσ
+
+RETRIEVED #3
+Similarity: 0.528450
+Source: 66-SBLGNT-Romans.txt
+
+Χριστῷ, πιστεύομεν ὅτι καὶ συζήσομεν αὐτῷ· 9 εἰδότες ὅτι 
+Χριστὸς ἐγερθεὶς ἐκ νεκρῶν οὐκέτι ἀποθνῄσκ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based solely on the retrieved context provided, I can see that the New Testament teaches about resurrection through these fragments:
+
+1. The resurrection of Christ is emphasized in Romans 6:9 (as indicated by the fragment: "Χριστὸς ἐγερθεὶς ἐκ νεκρῶν οὐκέτι ἀποθνῄσκ" - meaning "Christ having risen from the dead will not die again")
+
+2. There is discussion about what it means for the dead to rise (as seen in Mark: "συζητοῦντες τί ἐστιν τὸ ἐκ νεκρῶν ἀναστῆναι" - meaning "they were discussing what it means for the dead to rise")
+
+3. The New Testament addresses the concept of resurrection of the dead as a doctrine (as seen in 1 Corinthians: "πῶς λέγουσιν ἐν ὑμῖν τινες ὅτι ἀνάστασις νεκρῶν οὐκ ἔσ" - meaning "how do some of you say that the resurrection of the dead does not happen?")
+
+The context shows that resurrection is a significant theme in the New Testament, particularly focusing on Christ's resurrection and the future resurrection of believers. However, the retrieved context is incomplete fragments of the texts, so I cannot provide a comprehensive view of what the New Testament teaches about resurrection.
+
+
+======================================================================
+EXPERIMENT 57
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does the New Testament teach about repentance?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.570358
+Source: 65-SBLGNT-Acts.txt
+
+ ⸀αὐτοῦ ἐπλήρωσεν οὕτως. 19 μετανοήσατε 
+οὖν καὶ ἐπιστρέψατε ⸀πρὸς τὸ ἐξαλειφθῆναι ὑμῶν τὰς ἁμαρτίας
+
+RETRIEVED #2
+Similarity: 0.551514
+Source: 63-SBLGNT-Luke.txt
+
+οῦντας WH Treg 
+NIV ] + ἐν RP 5 μετανοῆτεμετανοῆτε NIV RP ] μετανοήσητε WH Treg • ὡσαύτωςὡσαύτως WH 
+
+RETRIEVED #3
+Similarity: 0.544490
+Source: 61-SBLGNT-Matthew.txt
+
+ μετάνοιαν RP 14 πολλάπολλά Treg RP 
+NA ] – WH NIV
+ 17
+ ΚΑΤΑ  ΜΑΘΘΑΙΟΝ  9:17–36  
+εἰ δὲ μή γε, ῥήγνυ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based solely on the retrieved context, I can provide the following information about what the New Testament teaches about repentance:
+
+The New Testament uses the Greek term "μετανοήσατε" (imperative form) for "repent" and "μετάνοια" (noun form) for "repentance." 
+
+In the context of the New Testament, repentance is connected with the forgiveness of sins, as shown in the Acts passage where it states: "repent and return [to] that your sins may be forgiven" (αὐτοῦ ἐπλήρωσεν οὕτως. 19 μετανοήσατε οὖν καὶ ἐπιστρέψατε ⸀πρὸς τὸ ἐξαλειφθῆναι ὑμῶν τὰς ἁμαρτίας).
+
+The context also references repentance in Matthew 9:17-36, where the term "metanoia" (μετάνοια) is used.
+
+The retrieved context shows that repentance is presented as a command to "repent" (μετανοήσητε) and is connected with the forgiveness of sins, but does not provide a complete explanation of what the New Testament teaches about repentance beyond these specific references.
+
+
+======================================================================
+EXPERIMENT 58
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   50
+Top N:            3
+
+QUESTION:
+What does the New Testament teach about forgiveness?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.552965
+Source: 61-SBLGNT-Matthew.txt
+
+NIV • εἰςεἰς WH 
+Treg NIV ] + τὸ RP
+ 16
+9:2–17  ΚΑΤΑ  ΜΑΘΘΑΙΟΝ
+⸀ἀφίενταί ⸂σου αἱ ἁμαρτίαι⸃. 3 καὶ ἰδ
+
+RETRIEVED #2
+Similarity: 0.543301
+Source: 61-SBLGNT-Matthew.txt
+
+ἐπιούσιον δὸς ἡμῖν 
+σήμερον· 12 καὶ ἄφες ἡμῖν τὰ ὀφειλήματα ἡμῶν, ὡς καὶ ἡμεῖς ⸀ἀφήκαμεν 
+τοῖς ὀφειλ
+
+RETRIEVED #3
+Similarity: 0.534378
+Source: 63-SBLGNT-Luke.txt
+
+νοιαν ⸀καὶ ἄφεσιν ἁμαρτιῶν εἰς πάντα 
+τὰ ἔθνη — ⸀ἀρξάμενοι ἀπὸ Ἰερουσαλήμ· 48 ὑμεῖς ⸀ἐστε μάρτυρες τ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, the New Testament teaches that believers should seek forgiveness for their sins. The context shows references to "ἀφίενταί σου αἱ ἁμαρτίαι" (that your sins are forgiven) and "καὶ ἄφεσιν ἁμαρτιῶν" (forgiveness of sins) in the Lord's Prayer (Matthew 6:9-13 and Luke 11:1-4). These phrases indicate that the New Testament emphasizes the importance of seeking forgiveness from God for believers' sins.
+

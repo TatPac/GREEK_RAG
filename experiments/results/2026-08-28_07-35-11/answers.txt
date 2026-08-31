@@ -1,0 +1,485 @@
+
+======================================================================
+EXPERIMENT 1
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+How does Jesus Christ feel towards the Pharisees?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.551349
+Source: 61-SBLGNT-Matthew.txt
+
+ οἱ ⸀μαθηταὶ ⸀λέγουσιν αὐτῷ· Οἶδας ὅτι οἱ Φαρισαῖοι ἀκούσαντες 
+τὸν λόγον ἐσκανδαλίσθησαν ; 13 ὁ δὲ 
+
+RETRIEVED #2
+Similarity: 0.550427
+Source: 64-SBLGNT-John.txt
+
+ον· Ὁ χριστὸς ὅταν ἔλθῃ ⸀μὴ πλείονα ⸀σημεῖα 
+ποιήσει ὧν οὗτος ἐποίησεν;
+32 Ἤκουσαν οἱ Φαρισαῖοι τοῦ 
+
+RETRIEVED #3
+Similarity: 0.536613
+Source: 61-SBLGNT-Matthew.txt
+
+πλήσσοντο ἐπὶ τῇ 
+διδαχῇ αὐτοῦ.
+34 Οἱ δὲ Φαρισαῖοι  ἀκούσαντες  ὅτι ἐφίμωσεν  τοὺς Σαδδουκαίους  
+συ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+The retrieved context does not explicitly state how Jesus Christ feels toward the Pharisees. The context shows that the Pharisees were scandalized by Jesus' teachings (as predicted by the disciples), but it does not directly describe Jesus' feelings toward them. The passages indicate that Jesus' teachings were offensive to the Pharisees (they were "scandalized" or "offended"), and that the Pharisees were pressing Jesus on his teaching, but the context does not provide information about Jesus' internal feelings or perspective regarding the Pharisees.
+
+
+======================================================================
+EXPERIMENT 2
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Jesus teach about loving one's enemies?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.628899
+Source: 63-SBLGNT-Luke.txt
+
+ ἀγαπᾶτε  τοὺς ἐχθροὺς  ὑμῶν, 
+καλῶς ποιεῖτε τοῖς μισοῦσιν ὑμᾶς, 28 εὐλογεῖτε τοὺς καταρωμένους ⸀ὑμᾶ
+
+RETRIEVED #2
+Similarity: 0.602597
+Source: 64-SBLGNT-John.txt
+
+λὴν καινὴν δίδωμι ὑμῖν 
+ἵνα ἀγαπᾶτε ἀλλ ήλους, καθὼς ἠγάπησα ὑμᾶς ἵνα καὶ ὑμεῖς ἀγαπᾶτε ἀλλ ήλους. 
+
+
+RETRIEVED #3
+Similarity: 0.598321
+Source: 61-SBLGNT-Matthew.txt
+
+ς τὸν πλησίον σου καὶ μισήσεις  
+τὸν ἐχθρόν σου. 44 ἐγὼ δὲ λέγω ὑμῖν, ἀγαπᾶτε τοὺς ἐχθροὺς ⸀ὑμῶν καὶ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus teaches that we should:
+
+1. Love our enemies (ἀγαπᾶτε τοὺς ἐχθροὺς ὑμῶν)
+2. Do good to those who hate us (καλῶς ποιεῖτε τοῖς μισοῦσιν ὑμᾶς)
+3. Bless those who curse us (εὐλογεῖτε τοὺς καταρωμένους)
+
+This teaching appears in Luke 6:27-28 (as shown in the [63-SBLGNT-Luke.txt] reference), where Jesus specifically instructs believers to love their enemies and respond to hatred with good deeds and blessings.
+
+The context also shows this teaching appears in Matthew 5:44 (as shown in the [61-SBLGNT-Matthew.txt] reference), where Jesus says "Love your enemies."
+
+This teaching represents a radical commandment that challenges believers to respond to hostility with love and blessing rather than retaliation.
+
+
+======================================================================
+EXPERIMENT 3
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does Paul teach about faith?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.545097
+Source: 65-SBLGNT-Acts.txt
+
+ τῷ Παύλῳ εἶπεν· 
+Θέλεις εἰς Ἱεροσόλυμα ἀναβὰς ἐκεῖ περὶ τούτων ⸀κριθῆναι ἐπʼ ἐμοῦ; 10 εἶπεν 
+δὲ ὁ Π
+
+RETRIEVED #2
+Similarity: 0.545029
+Source: 67-SBLGNT-1Corinthians.txt
+
+μὴ Παῦλος ἐσταυρώθη 
+ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε; 14 ⸀εὐχαριστῶ ὅτι οὐδένα 
+ὑμῶν ἐβ
+
+RETRIEVED #3
+Similarity: 0.538805
+Source: 65-SBLGNT-Acts.txt
+
+ερί 
+τινος Ἰησοῦ τεθνηκότος, ὃν ἔφασκεν ὁ Παῦλος ζῆν. 20 ἀπορούμενος δὲ ἐγὼ τὴν 
+περὶ ⸀τούτων ζήτησι
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+I cannot provide an answer about what Paul teaches about faith based on the retrieved context. The context consists of only three incomplete Greek excerpts from the New Testament (Acts and 1 Corinthians) that don't contain information about Paul's teachings on faith:
+
+1. A fragment about someone asking Paul if he wants to go to Jerusalem to be judged about something
+2. A fragment about "Paul was not crucified for you, or were you baptized in the name of Paul?"
+3. A fragment about "someone Jesus who died, whom Paul said would live"
+
+These excerpts are incomplete and don't directly address what Paul teaches about faith. The context does not contain any information about Paul's teachings on faith that I can use to answer your question. I would need specific passages about Paul's teachings on faith in Koine Greek to provide an accurate response.
+
+
+======================================================================
+EXPERIMENT 4
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            3
+
+QUESTION:
+What does John teach about eternal life?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.603271
+Source: 83-SBLGNT-1John.txt
+
+εὸς Treg NIV RP
+ 476
+5:13–21  ΙΩΑΝΝΟΥ  Α
+13 Ταῦτα ἔγραψα ⸀ὑμῖν ἵνα εἰδῆτε ὅτι ζωὴν ⸂ἔχετε αἰώνιον⸃ ,
+
+RETRIEVED #2
+Similarity: 0.583546
+Source: 61-SBLGNT-Matthew.txt
+
+οσελθὼν ⸂αὐτῷ εἶπεν⸃· ⸀Διδάσκαλε, τί ἀγαθὸν ποιήσω 
+ἵνα ⸀σχῶ ζωὴν αἰώνιον; 17 ὁ δὲ εἶπεν αὐτῷ· Τί με
+
+RETRIEVED #3
+Similarity: 0.553536
+Source: 62-SBLGNT-Mark.txt
+
+ν εἷς καὶ γονυπετήσας 
+αὐτὸν ἐπηρώτα  αὐτόν·  Διδάσκαλε  ἀγαθέ, τί ποιήσω ἵνα ζωὴν αἰώνιον  
+κληρονο
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the provided context, I can see that the excerpt comes from 1 John (the epistle), not the Gospel of John. The context shows:
+
+"Ταῦτα ἔγραψα ⸀ὑμῖν ἵνα εἰδῆτε ὅτι ζωὴν ⸂ἔχετε αἰώνιον⸃"
+
+This translates to: "These things I have written to you so that you may know that you have eternal life."
+
+Therefore, according to the provided context, 1 John teaches that believers have eternal life (ζωὴν ἔχετε αἰώνιον). 
+
+Note: The context shows information from 1 John (the epistle), not the Gospel of John, which is a different biblical text. The question asks about what "John" teaches, but the context only provides information about 1 John (the epistle), not the Gospel of John.
+
+
+======================================================================
+EXPERIMENT 5
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            5
+
+QUESTION:
+How does Jesus Christ feel towards the Pharisees?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.551349
+Source: 61-SBLGNT-Matthew.txt
+
+ οἱ ⸀μαθηταὶ ⸀λέγουσιν αὐτῷ· Οἶδας ὅτι οἱ Φαρισαῖοι ἀκούσαντες 
+τὸν λόγον ἐσκανδαλίσθησαν ; 13 ὁ δὲ 
+
+RETRIEVED #2
+Similarity: 0.550427
+Source: 64-SBLGNT-John.txt
+
+ον· Ὁ χριστὸς ὅταν ἔλθῃ ⸀μὴ πλείονα ⸀σημεῖα 
+ποιήσει ὧν οὗτος ἐποίησεν;
+32 Ἤκουσαν οἱ Φαρισαῖοι τοῦ 
+
+RETRIEVED #3
+Similarity: 0.536613
+Source: 61-SBLGNT-Matthew.txt
+
+πλήσσοντο ἐπὶ τῇ 
+διδαχῇ αὐτοῦ.
+34 Οἱ δὲ Φαρισαῖοι  ἀκούσαντες  ὅτι ἐφίμωσεν  τοὺς Σαδδουκαίους  
+συ
+
+RETRIEVED #4
+Similarity: 0.533657
+Source: 61-SBLGNT-Matthew.txt
+
+οῦ καὶ τοῖς μαθηταῖς αὐτοῦ. 
+11 καὶ ἰδόντες οἱ Φαρισαῖοι ⸀ἔλεγον τοῖς μαθηταῖς αὐτοῦ· Διὰ τί μετὰ τῶ
+
+RETRIEVED #5
+Similarity: 0.530194
+Source: 62-SBLGNT-Mark.txt
+
+24 καὶ οἱ Φαρισαῖοι ἔλεγον αὐτῷ· Ἴδε τί ⸀ποιοῦσιν τοῖς σάββασιν ὃ 
+οὐκ ἔξεστιν; 25 καὶ ⸀λέγει αὐτοῖς
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, I cannot determine how Jesus Christ feels toward the Pharisees.
+
+The context provided consists of Greek Bible passages (SBLGNT) from Matthew, John, and Mark. These passages show interactions between Jesus and the Pharisees, such as:
+
+- The Pharisees being scandalized by Jesus' teaching (from Matthew)
+- The Pharisees questioning Jesus about what he does on the Sabbath
+- The Pharisees speaking negatively to Jesus' disciples
+
+However, the context does not contain any information about Jesus' feelings or emotions toward the Pharisees. The passages describe what the Pharisees are doing and saying, but they don't reveal Jesus' emotional state or feelings toward them.
+
+The question asks specifically about "how Jesus Christ feels," but the retrieved context does not provide information about Jesus' feelings toward the Pharisees.
+
+
+======================================================================
+EXPERIMENT 6
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            5
+
+QUESTION:
+What does Jesus teach about loving one's enemies?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.628899
+Source: 63-SBLGNT-Luke.txt
+
+ ἀγαπᾶτε  τοὺς ἐχθροὺς  ὑμῶν, 
+καλῶς ποιεῖτε τοῖς μισοῦσιν ὑμᾶς, 28 εὐλογεῖτε τοὺς καταρωμένους ⸀ὑμᾶ
+
+RETRIEVED #2
+Similarity: 0.602597
+Source: 64-SBLGNT-John.txt
+
+λὴν καινὴν δίδωμι ὑμῖν 
+ἵνα ἀγαπᾶτε ἀλλ ήλους, καθὼς ἠγάπησα ὑμᾶς ἵνα καὶ ὑμεῖς ἀγαπᾶτε ἀλλ ήλους. 
+
+
+RETRIEVED #3
+Similarity: 0.598321
+Source: 61-SBLGNT-Matthew.txt
+
+ς τὸν πλησίον σου καὶ μισήσεις  
+τὸν ἐχθρόν σου. 44 ἐγὼ δὲ λέγω ὑμῖν, ἀγαπᾶτε τοὺς ἐχθροὺς ⸀ὑμῶν καὶ
+
+RETRIEVED #4
+Similarity: 0.594566
+Source: 63-SBLGNT-Luke.txt
+
+ τοὺς ἐχθροὺς ὑμῶν καὶ ἀγαθοποιεῖτε καὶ δανίζετε μηδὲν ἀπελπίζοντες· 
+καὶ ἔσται ὁ μισθὸς ὑμῶν πολύς,
+
+RETRIEVED #5
+Similarity: 0.566456
+Source: 64-SBLGNT-John.txt
+
+ ὀνόματί μου δῷ ὑμῖν. 17 ταῦτα ἐντέλλ ομαι ὑμῖν ἵνα 
+ἀγαπᾶτε ἀλλ ήλους.
+18 Εἰ ὁ κόσμος ὑμᾶς μισεῖ, γ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, Jesus teaches several specific instructions about loving one's enemies:
+
+1. In the passage from Matthew (61-SBLGNT-Matthew.txt), Jesus says: "Love your enemies."
+
+2. In Luke 6:27-28 (63-SBLGNT-Luke.txt), Jesus instructs: "Love your enemies, do good to those who hate you, and bless those who curse you."
+
+3. In Luke 6:34-35 (63-SBLGNT-Luke.txt), Jesus expands on this teaching: "Love your enemies, do good to them, lend without expecting anything in return, and your reward will be great."
+
+4. In John (64-SBLGNT-John.txt), Jesus gives this command as a new teaching: "A new commandment I give you: that you love your neighbors as I have loved you."
+
+The context shows that Jesus' teaching about loving enemies includes not only the command to love them, but also specific actions like doing good to those who hate you, blessing those who curse you, and lending without expecting return. This teaching is presented as a radical command that contrasts with normal human behavior.
+
+
+======================================================================
+EXPERIMENT 7
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            5
+
+QUESTION:
+What does Paul teach about faith?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.545097
+Source: 65-SBLGNT-Acts.txt
+
+ τῷ Παύλῳ εἶπεν· 
+Θέλεις εἰς Ἱεροσόλυμα ἀναβὰς ἐκεῖ περὶ τούτων ⸀κριθῆναι ἐπʼ ἐμοῦ; 10 εἶπεν 
+δὲ ὁ Π
+
+RETRIEVED #2
+Similarity: 0.545029
+Source: 67-SBLGNT-1Corinthians.txt
+
+μὴ Παῦλος ἐσταυρώθη 
+ὑπὲρ ὑμῶν, ἢ εἰς τὸ ὄνομα Παύλου ἐβαπτίσθητε; 14 ⸀εὐχαριστῶ ὅτι οὐδένα 
+ὑμῶν ἐβ
+
+RETRIEVED #3
+Similarity: 0.538805
+Source: 65-SBLGNT-Acts.txt
+
+ερί 
+τινος Ἰησοῦ τεθνηκότος, ὃν ἔφασκεν ὁ Παῦλος ζῆν. 20 ἀπορούμενος δὲ ἐγὼ τὴν 
+περὶ ⸀τούτων ζήτησι
+
+RETRIEVED #4
+Similarity: 0.536845
+Source: 65-SBLGNT-Acts.txt
+
+ὸ συνέδριοντὸν Παῦλον καταγάγῃς εἰς τὸ συνέδριον  WH Treg NIV ] εἰς τὸ 
+συνέδριον καταγάγῃς τὸν Παῦλ
+
+RETRIEVED #5
+Similarity: 0.534143
+Source: 65-SBLGNT-Acts.txt
+
+α  ἤμελλεν⸃  γίνεσθαι  παρεκάλει  ὁ Παῦλος  
+ἅπαντας μεταλαβεῖν τροφῆς λέγων· Τεσσαρεσκαιδεκάτην σήμ
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+I cannot provide a specific answer about what Paul teaches about faith based on the retrieved context. 
+
+The context consists of several fragments from the New Testament in Koine Greek (SBLGNT), but none of these fragments directly address Paul's teachings on faith. The fragments show Paul's activities and mentions of Jesus, but they don't contain clear statements about Paul's teachings regarding faith.
+
+For example:
+- One fragment mentions "μὴ Παῦλος ἐσταυρώθη ὑπὲρ ὑμῶν" (Paul was not crucified for you)
+- Another fragment mentions "ερί τινος Ἰησοῦ τεθνηκότος, ὃν ἔφασκεν ὁ Παῦλος ζῆν" (about someone who died for Jesus, whom Paul said would live)
+
+However, these fragments don't provide specific information about what Paul teaches about faith. The context provided doesn't contain the necessary information to answer your question about Paul's teachings on faith.
+
+
+======================================================================
+EXPERIMENT 8
+======================================================================
+Embedding model: qwen3-embedding:4b
+Language model:  qwen3:4b
+Chunk size:      100
+Chunk overlap:   0
+Top N:            5
+
+QUESTION:
+What does John teach about eternal life?
+
+----------------------------------------------------------------------
+RETRIEVED KNOWLEDGE
+----------------------------------------------------------------------
+
+RETRIEVED #1
+Similarity: 0.603271
+Source: 83-SBLGNT-1John.txt
+
+εὸς Treg NIV RP
+ 476
+5:13–21  ΙΩΑΝΝΟΥ  Α
+13 Ταῦτα ἔγραψα ⸀ὑμῖν ἵνα εἰδῆτε ὅτι ζωὴν ⸂ἔχετε αἰώνιον⸃ ,
+
+RETRIEVED #2
+Similarity: 0.583546
+Source: 61-SBLGNT-Matthew.txt
+
+οσελθὼν ⸂αὐτῷ εἶπεν⸃· ⸀Διδάσκαλε, τί ἀγαθὸν ποιήσω 
+ἵνα ⸀σχῶ ζωὴν αἰώνιον; 17 ὁ δὲ εἶπεν αὐτῷ· Τί με
+
+RETRIEVED #3
+Similarity: 0.553536
+Source: 62-SBLGNT-Mark.txt
+
+ν εἷς καὶ γονυπετήσας 
+αὐτὸν ἐπηρώτα  αὐτόν·  Διδάσκαλε  ἀγαθέ, τί ποιήσω ἵνα ζωὴν αἰώνιον  
+κληρονο
+
+RETRIEVED #4
+Similarity: 0.547694
+Source: 64-SBLGNT-John.txt
+
+ὅτι ὁ τὸν λόγον μου ἀκούων καὶ 
+πιστεύων τῷ πέμψαντί με ἔχει ζωὴν αἰώνιον, καὶ εἰς κρίσιν οὐκ ἔρχετα
+
+RETRIEVED #5
+Similarity: 0.547410
+Source: 65-SBLGNT-Acts.txt
+
+ζον τὸν λόγον τοῦ ⸀κυρίου, καὶ ἐπίστευσαν ὅσοι ἦσαν τεταγμένοι 
+εἰς ζωὴν αἰώνιον· 49 διεφέρετο δὲ ὁ 
+
+----------------------------------------------------------------------
+GENERATED ANSWER
+----------------------------------------------------------------------
+
+Based on the retrieved context, John teaches that eternal life is received through hearing Jesus' word and believing in Him. Specifically, in the John passage (64-SBLGNT-John.txt), it states: "ὅτι ὁ τὸν λόγον μου ἀκούων καὶ πιστεύων τῷ πέμψαντί με ἔχει ζωὴν αἰώνιον, καὶ εἰς κρίσιν οὐκ ἔρχετα" (that whoever hears my word and believes the one who sent me has eternal life, and does not come to judgment).
+
+Additionally, in 1 John (83-SBLGNT-1John.txt), it states: "Ταῦτα ἔγραψα ⸀ὑμῖν ἵνα εἰδῆτε ὅτι ζωὴν ⸂ἔχετε αἰώνιον⸃" (I have written this to you so that you may know that you have eternal life).
+
+So John teaches that eternal life is a gift received by hearing Jesus' word and believing in Him, and those who possess this eternal life do not come to judgment.
+
