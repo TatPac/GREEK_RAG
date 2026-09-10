@@ -10,14 +10,14 @@ import ollama
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DATABASE_DIR = PROJECT_ROOT / "data" / "databases"
-DATABASE_PATH = DATABASE_DIR / "sblgnt_qwen3-embedding-4b_2026-08-26_23-26-30.pkl"
+DATABASE_PATH = DATABASE_DIR / "sblgnt_v001__yxchia_multilingual-e5-base_latest__chunk1000__overlap100.pkl"
 
 
 # --------------------------------------------------
 # Models
 # --------------------------------------------------
 
-EMBEDDING_MODEL = "qwen3-embedding:4b"
+EMBEDDING_MODEL = "yxchia/multilingual-e5-base:latest"
 LANGUAGE_MODEL = "qwen3:4b"
 
 
