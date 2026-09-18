@@ -11,9 +11,9 @@ from pypdf import PdfReader
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 SOURCE_DIR = PROJECT_ROOT / "data" / "corpora" / "raw" / "SBLGNT_pdf"
-READY_DIR = PROJECT_ROOT / "data" / "corpora" / "ready"
+REPLACE_DIR = PROJECT_ROOT / "data" / "corpora" / "replace"
 
-READY_DIR.mkdir(parents=True, exist_ok=True)
+REPLACE_DIR.mkdir(parents=True, exist_ok=True)
 
 print(f"1")
 
@@ -46,7 +46,7 @@ def convert_pdf_to_txt(pdf_path, txt_path):
 
 for pdf_path in SOURCE_DIR.glob("*.pdf"):
 
-    txt_path = READY_DIR / f"{pdf_path.stem}.txt"
+    txt_path = REPLACE_DIR / f"{pdf_path.stem}.txt"
 
     convert_pdf_to_txt(pdf_path, txt_path)
 
