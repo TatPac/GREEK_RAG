@@ -21,6 +21,8 @@ def parse_verses(ready_file):
     current_chapter = 0
     current_verse = 0
     current_text = []
+    rewrite_text = []
+    second_verse = []
     Skipping = False
     warnings = []
 
@@ -40,8 +42,10 @@ def parse_verses(ready_file):
                 if ":" in word:
                           
                     chapter, verse = word.split(":", 1)
+
                     if not chapter.isdigit() or not verse.isdigit():
                         continue  
+
                     chapter = int(chapter)
                     verse = int(verse)
 
@@ -63,7 +67,7 @@ def parse_verses(ready_file):
                     else:
                         Skipping = True
 
-                elif word.isdigit():
+                elif word.isdigit() and not Skipping:
                     digit = int(word)
                     if current_verse == digit-1:
     
@@ -81,6 +85,51 @@ def parse_verses(ready_file):
                         Skipping = False
 
                     elif current_verse < digit:
+
+                        warnings.append(f"Unexpected verse number: {digit} at page {page_number}, chapter {current_chapter}, verse {current_verse}")
+
+                        if current_verse == digit+2:
+                            for word in current_text:
+                                if not Skipping:
+                                    split_word, envoloped_verse=find_attached_verse(word)
+                                    rewrite_text.append(word)
+                                else:
+                                    second_verse.append(word)
+
+                                if split_word and envoloped_verse:
+                                    Skipping = True
+                                    current_text.remove(word)
+                                    current_text.append(split_word)
+                                    record = {
+                                        "book": current_book,
+                                        "chapter": current_chapter,
+                                        "verse": current_verse,
+                                        "text": " ".join(rewrite_text).strip(),
+                                        "page_number": page_number
+                                    }
+
+                                    verses.append(record)
+                                    current_text = []
+                                    current_verse = envoloped_verse
+
+                            if Skipping:
+                                current_verse = envoloped_verse
+                                make_record(current_book, current_chapter, current_verse, " ".join(second_verse).strip(), page_number)
+                            Skipping = False
+                        else:
+                            record = {
+                                "book": current_book,
+                                "chapter": current_chapter,
+                                "verse": current_verse,
+                                "text": " ".join(current_text).strip(),
+                                "page_number": page_number
+                            }
+
+                        verses.append(record)
+                        current_text = []
+                        current_verse = digit
+
+                    else:
                         warnings.append(f"Unexpected verse number: {digit} at page {page_number}, chapter {current_chapter}, verse {current_verse}")
                         record = {
                             "book": current_book,
@@ -92,16 +141,35 @@ def parse_verses(ready_file):
 
                         verses.append(record)
                         current_text = []
-                        current_verse = digit
+                        current_verse = digit    
 
 
 
                 else:
                     if Skipping:
                         continue
+
                     current_text.append(word)
 
     return verses, warnings
+
+def find_attached_verse(word):
+    if "." not in word:
+        return None
+
+    text, possible_verse = word.rsplit(".", 1)
+    if text and possible_verse.isdigit():
+        return text, int(possible_verse)
+    return None
+
+def make_record(book, chapter, verse, text, page_number):
+    return {
+        "book": book,
+        "chapter": chapter,
+        "verse": verse,
+        "text": text.strip(),
+        "page_number": page_number
+    }
 
 def write_jsonl(verses, output_file):
     with open(output_file, "w", encoding="utf-8") as f:
@@ -111,15 +179,23 @@ def write_jsonl(verses, output_file):
 
 def main():
 
-    ready_file = READY_DIR / "61-SBLGNT-Matthew.txt"
+    corpus = []
+    flagged = []
 
-    verses, warnings = parse_verses(ready_file)
+    ready_files = READY_DIR / "61-SBLGNT-Matthew.txt"
 
-    output_file = PARSED_DIR / "matthew_test4.jsonl"
-    warnings_file = PARSED_DIR / "matthew_test4_warnings.jsonl"
+    for ready_file in [ready_files]:
+        
+        verses, warnings = parse_verses(ready_file)
+        corpus.append(verses)
+        flagged.append(warnings)
 
-    write_jsonl(verses, output_file)
-    write_jsonl(warnings, warnings_file)
+
+    output_file = PARSED_DIR / "matthew_test7.jsonl"
+    warnings_file = PARSED_DIR / "matthew_test7_warnings.jsonl"
+
+    write_jsonl(corpus, output_file)
+    write_jsonl(flagged, warnings_file)
 
 
 if __name__ == "__main__":
